@@ -1,0 +1,13 @@
+{
+    "apis": [],
+    "fields": [
+        {
+            "name": "mrl_config_id",
+            "type": "string"
+        },
+        {
+            "name": "mrl_is_enabled",
+            "type": "bool"
+        }
+    ]
+}

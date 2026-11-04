@@ -1,0 +1,23 @@
+{
+    "apis": [
+        {
+            "name": "genGet",
+            "method": "GET",
+            "endpoint": "insights\/benchmark-availability",
+            "return": "BenchmarkAvailabilityGet",
+            "params": [
+                {
+                    "name": "country",
+                    "required": true,
+                    "type": "string"
+                },
+                {
+                    "name": "entity",
+                    "required": false,
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": []
+}

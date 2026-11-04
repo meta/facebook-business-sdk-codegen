@@ -1,0 +1,48 @@
+{
+    "apis": [
+        {
+            "name": "genGet",
+            "method": "GET",
+            "endpoint": "diagnostics",
+            "return": "ProductCatalogDiagnosticsGet",
+            "params": [
+                {
+                    "name": "affected_channels",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "affected_entities",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "affected_features",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "fields",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "severities",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "summary",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "types",
+                    "required": false,
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": []
+}

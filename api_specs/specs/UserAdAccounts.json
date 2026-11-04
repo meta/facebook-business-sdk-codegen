@@ -17,6 +17,11 @@
                     "type": "string"
                 },
                 {
+                    "name": "date_format",
+                    "required": false,
+                    "type": "string"
+                },
+                {
                     "name": "fields",
                     "required": false,
                     "type": "string"
@@ -38,6 +43,11 @@
                 },
                 {
                     "name": "summary",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "timezone",
                     "required": false,
                     "type": "string"
                 }

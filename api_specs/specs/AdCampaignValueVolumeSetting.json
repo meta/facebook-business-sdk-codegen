@@ -1,0 +1,13 @@
+{
+    "apis": [],
+    "fields": [
+        {
+            "name": "setting",
+            "type": "int"
+        },
+        {
+            "name": "setting_type",
+            "type": "string"
+        }
+    ]
+}

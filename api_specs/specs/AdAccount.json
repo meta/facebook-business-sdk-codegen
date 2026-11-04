@@ -720,6 +720,11 @@
                     "type": "string"
                 },
                 {
+                    "name": "recommended_rule_key",
+                    "required": false,
+                    "type": "string"
+                },
+                {
                     "name": "schedule_spec",
                     "required": false,
                     "type": "Object"
@@ -1038,11 +1043,6 @@
                     "name": "billing_event",
                     "required": false,
                     "type": "adaccountadsets_billing_event_enum_param"
-                },
-                {
-                    "name": "brand_safety_config",
-                    "required": false,
-                    "type": "map"
                 },
                 {
                     "name": "budget_schedule_specs",
@@ -2219,6 +2219,11 @@
                     "type": "bool"
                 },
                 {
+                    "name": "is_pca_unified",
+                    "required": false,
+                    "type": "bool"
+                },
+                {
                     "name": "is_reels_trending_ads_enabled",
                     "required": false,
                     "type": "bool"
@@ -2830,6 +2835,11 @@
                     "type": "list<adaccountinsights_breakdowns_enum_param>"
                 },
                 {
+                    "name": "cpas_only",
+                    "required": false,
+                    "type": "string"
+                },
+                {
                     "name": "date_preset",
                     "required": false,
                     "type": "adaccountinsights_date_preset_enum_param"
@@ -2929,7 +2939,7 @@
         {
             "method": "POST",
             "endpoint": "insights",
-            "return": "AdReportRun",
+            "return": "Object",
             "params": [
                 {
                     "name": "action_attribution_windows",
@@ -2950,6 +2960,11 @@
                     "name": "breakdowns",
                     "required": false,
                     "type": "list<adaccountinsights_breakdowns_enum_param>"
+                },
+                {
+                    "name": "cpas_only",
+                    "required": false,
+                    "type": "string"
                 },
                 {
                     "name": "date_preset",
@@ -4134,6 +4149,11 @@
                     "name": "name",
                     "required": true,
                     "type": "string"
+                },
+                {
+                    "name": "origin",
+                    "required": false,
+                    "type": "adaccountvalue_rule_set_origin_enum_param"
                 },
                 {
                     "name": "product_type",

@@ -81,6 +81,10 @@
             "type": "float"
         },
         {
+            "name": "exclusion_geo",
+            "type": "list<string>"
+        },
+        {
             "name": "id",
             "type": "string"
         },

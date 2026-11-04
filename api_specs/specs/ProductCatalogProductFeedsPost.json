@@ -1,0 +1,76 @@
+{
+    "fields": [
+        {
+            "name": "country",
+            "type": "string"
+        },
+        {
+            "name": "created_time",
+            "type": "string"
+        },
+        {
+            "name": "default_currency",
+            "type": "string"
+        },
+        {
+            "name": "deletion_enabled",
+            "type": "bool"
+        },
+        {
+            "name": "delimiter",
+            "type": "ProductCatalogProductFeedsPost_delimiter"
+        },
+        {
+            "name": "encoding",
+            "type": "ProductCatalogProductFeedsPost_encoding"
+        },
+        {
+            "name": "errors",
+            "type": "list<object>"
+        },
+        {
+            "name": "file_name",
+            "type": "string"
+        },
+        {
+            "name": "id",
+            "type": "int"
+        },
+        {
+            "name": "ingestion_source_type",
+            "type": "ProductCatalogProductFeedsPost_ingestion_source_type"
+        },
+        {
+            "name": "item_sub_type",
+            "type": "ProductCatalogProductFeedsPost_item_sub_type"
+        },
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "override_type",
+            "type": "ProductCatalogProductFeedsPost_override_type"
+        },
+        {
+            "name": "primary_feeds",
+            "type": "list<int>"
+        },
+        {
+            "name": "product_count",
+            "type": "int"
+        },
+        {
+            "name": "quoted_fields_mode",
+            "type": "ProductCatalogProductFeedsPost_quoted_fields_mode"
+        },
+        {
+            "name": "schedule",
+            "type": "object"
+        },
+        {
+            "name": "update_schedule",
+            "type": "object"
+        }
+    ]
+}

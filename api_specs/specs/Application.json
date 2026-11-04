@@ -172,6 +172,11 @@
                     "type": "file"
                 },
                 {
+                    "name": "custom_vendor_id",
+                    "required": false,
+                    "type": "string"
+                },
+                {
                     "name": "data_processing_options",
                     "required": false,
                     "type": "list<string>"
@@ -894,6 +899,11 @@
                     "name": "click_attr_window",
                     "required": false,
                     "type": "unsigned int"
+                },
+                {
+                    "name": "click_id",
+                    "required": false,
+                    "type": "string"
                 },
                 {
                     "name": "custom_events",

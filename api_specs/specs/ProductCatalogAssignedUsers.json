@@ -1,0 +1,33 @@
+{
+    "apis": [
+        {
+            "name": "genPost",
+            "method": "POST",
+            "endpoint": "assigned_users",
+            "return": "ProductCatalogAssignedUsersPost",
+            "params": [
+                {
+                    "name": "fields",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "role",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "tasks",
+                    "required": false,
+                    "type": "list<string>"
+                },
+                {
+                    "name": "user",
+                    "required": false,
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": []
+}

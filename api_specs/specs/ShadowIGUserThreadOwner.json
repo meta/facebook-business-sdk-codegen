@@ -1,4 +1,9 @@
 {
     "apis": [],
-    "fields": []
+    "fields": [
+        {
+            "name": "thread_owner",
+            "type": "Object"
+        }
+    ]
 }

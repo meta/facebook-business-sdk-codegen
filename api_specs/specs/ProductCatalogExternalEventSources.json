@@ -1,0 +1,23 @@
+{
+    "apis": [
+        {
+            "name": "genPost",
+            "method": "POST",
+            "endpoint": "external_event_sources",
+            "return": "ProductCatalogExternalEventSourcesPost",
+            "params": [
+                {
+                    "name": "external_event_sources",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "fields",
+                    "required": false,
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": []
+}

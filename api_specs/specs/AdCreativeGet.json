@@ -65,6 +65,10 @@
             "type": "object"
         },
         {
+            "name": "creative_readiness",
+            "type": "object"
+        },
+        {
             "name": "creative_sourcing_spec",
             "type": "object"
         },

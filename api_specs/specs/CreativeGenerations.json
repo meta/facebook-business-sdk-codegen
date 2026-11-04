@@ -1,0 +1,18 @@
+{
+    "apis": [
+        {
+            "name": "genGet",
+            "method": "GET",
+            "endpoint": "creative_generations",
+            "return": "CreativeGenerationsGet",
+            "params": [
+                {
+                    "name": "generation_request_id",
+                    "required": true,
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": []
+}

@@ -530,6 +530,11 @@
                     "type": "string"
                 },
                 {
+                    "name": "routing_entrypoint",
+                    "required": false,
+                    "type": "whatsappbusinessaccountmessage_templates_routing_entrypoint_enum_param"
+                },
+                {
                     "name": "send_type",
                     "required": false,
                     "type": "whatsappbusinessaccountmessage_templates_send_type_enum_param"
@@ -1178,6 +1183,10 @@
         },
         {
             "name": "purchase_order_number",
+            "type": "string"
+        },
+        {
+            "name": "service_pricing_policy",
             "type": "string"
         },
         {

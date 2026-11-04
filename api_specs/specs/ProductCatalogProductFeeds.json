@@ -1,0 +1,133 @@
+{
+    "apis": [
+        {
+            "name": "genPost",
+            "method": "POST",
+            "endpoint": "product_feeds",
+            "return": "ProductCatalogProductFeedsPost",
+            "params": [
+                {
+                    "name": "configuration_source_name",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "country",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "default_currency",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "deletion_enabled",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "delimiter",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "encoding",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "feed_ingestion_type",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "feed_type",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "fields",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "file_name",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "ingestion_source_type",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "item_sub_type",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "migrated_from_feed_id",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "name",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "override_type",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "override_value",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "primary_feed_ids",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "quoted_fields_mode",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "rules",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "schedule",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "selected_override_fields",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "update_schedule",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "uploadable_item_type",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "use_case",
+                    "required": false,
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": []
+}

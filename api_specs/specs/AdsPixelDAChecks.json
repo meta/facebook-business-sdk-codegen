@@ -1,0 +1,53 @@
+{
+    "apis": [
+        {
+            "name": "genGet",
+            "method": "GET",
+            "endpoint": "da_checks",
+            "return": "AdsPixelDAChecksGet",
+            "params": [
+                {
+                    "name": "action_source",
+                    "required": false,
+                    "type": "list<AdsPixelDAChecksGet_action_source_enum_param>"
+                },
+                {
+                    "name": "capabilities",
+                    "required": false,
+                    "type": "list<AdsPixelDAChecksGet_capabilities_enum_param>"
+                },
+                {
+                    "name": "categories",
+                    "required": false,
+                    "type": "list<AdsPixelDAChecksGet_categories_enum_param>"
+                },
+                {
+                    "name": "checks",
+                    "required": false,
+                    "type": "list<string>"
+                },
+                {
+                    "name": "connection_method",
+                    "required": false,
+                    "type": "AdsPixelDAChecksGet_connection_method_enum_param"
+                },
+                {
+                    "name": "features",
+                    "required": false,
+                    "type": "list<AdsPixelDAChecksGet_features_enum_param>"
+                },
+                {
+                    "name": "fields",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "with_issue_only",
+                    "required": false,
+                    "type": "bool"
+                }
+            ]
+        }
+    ],
+    "fields": []
+}

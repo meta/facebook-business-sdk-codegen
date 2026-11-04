@@ -1,0 +1,8 @@
+{
+    "fields": [
+        {
+            "name": "report_run_id",
+            "type": "string"
+        }
+    ]
+}

@@ -1,11 +1,42 @@
 {
     "apis": [
         {
-            "name": "genDelete",
-            "method": "DELETE",
+            "name": "genGet",
+            "method": "GET",
             "endpoint": "",
-            "return": "AdgroupDelete",
-            "params": []
+            "return": "AdgroupGet",
+            "params": [
+                {
+                    "name": "am_call_tags",
+                    "required": false,
+                    "type": "map<string, string>"
+                },
+                {
+                    "name": "date_preset",
+                    "required": false,
+                    "type": "AdgroupGet_date_preset_enum_param"
+                },
+                {
+                    "name": "fields",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "from_adtable",
+                    "required": false,
+                    "type": "bool"
+                },
+                {
+                    "name": "review_feedback_breakdown",
+                    "required": false,
+                    "type": "bool"
+                },
+                {
+                    "name": "time_range",
+                    "required": false,
+                    "type": "map<string, string>"
+                }
+            ]
         }
     ],
     "fields": []

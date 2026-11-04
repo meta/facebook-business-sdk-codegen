@@ -228,6 +228,11 @@
                     "type": "list<adcampaigngroupinsights_breakdowns_enum_param>"
                 },
                 {
+                    "name": "cpas_only",
+                    "required": false,
+                    "type": "string"
+                },
+                {
                     "name": "date_preset",
                     "required": false,
                     "type": "adcampaigngroupinsights_date_preset_enum_param"
@@ -348,6 +353,11 @@
                     "name": "breakdowns",
                     "required": false,
                     "type": "list<adcampaigngroupinsights_breakdowns_enum_param>"
+                },
+                {
+                    "name": "cpas_only",
+                    "required": false,
+                    "type": "string"
                 },
                 {
                     "name": "date_preset",
@@ -555,6 +565,11 @@
                     "type": "bool"
                 },
                 {
+                    "name": "is_pca_unified",
+                    "required": false,
+                    "type": "bool"
+                },
+                {
                     "name": "is_reels_trending_ads_enabled",
                     "required": false,
                     "type": "bool"
@@ -741,6 +756,10 @@
         },
         {
             "name": "is_meta_moment_maker_enabled",
+            "type": "bool"
+        },
+        {
+            "name": "is_pca_unified",
             "type": "bool"
         },
         {

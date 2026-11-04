@@ -45,6 +45,10 @@
             "type": "list<map<string, int>>"
         },
         {
+            "name": "ads_cs_ugc_opt_out_timestamp",
+            "type": "list<map<string, int>>"
+        },
+        {
             "name": "ads_destination_optimization_opt_out_timestamp",
             "type": "list<map<string, int>>"
         },
@@ -245,6 +249,10 @@
             "type": "bool"
         },
         {
+            "name": "is_negative_keywords_dismissed",
+            "type": "bool"
+        },
+        {
             "name": "is_se_removal_guidance_dismissed",
             "type": "bool"
         },
@@ -255,6 +263,10 @@
         {
             "name": "last_visited_time",
             "type": "datetime"
+        },
+        {
+            "name": "maiba_r23_e2e_odax_default_mode",
+            "type": "string"
         },
         {
             "name": "metadata_brand_kit_last_opt_out_timestamp",
@@ -347,6 +359,18 @@
         {
             "name": "saon_migr_l1_seen_status",
             "type": "string"
+        },
+        {
+            "name": "se_optout_survey_impr",
+            "type": "int"
+        },
+        {
+            "name": "se_optout_survey_last_impr_ts",
+            "type": "datetime"
+        },
+        {
+            "name": "se_optout_survey_resp_ts",
+            "type": "datetime"
         },
         {
             "name": "selected_ad_account",
@@ -475,6 +499,10 @@
         {
             "name": "website_media_opt_in_status",
             "type": "string"
+        },
+        {
+            "name": "website_media_opt_out_ts",
+            "type": "datetime"
         },
         {
             "name": "website_reviews_data_opt_in_status",

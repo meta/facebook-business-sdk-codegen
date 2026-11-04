@@ -11,18 +11,6 @@
             "method": "GET",
             "return": "CPASLsbImageBank",
             "params": []
-        },
-        {
-            "name": "#update",
-            "method": "POST",
-            "return": "CPASLsbImageBank",
-            "params": [
-                {
-                    "name": "backup_image_urls",
-                    "required": true,
-                    "type": "list<string>"
-                }
-            ]
         }
     ],
     "fields": [

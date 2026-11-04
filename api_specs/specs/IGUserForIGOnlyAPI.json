@@ -45,6 +45,16 @@
                     "type": "list<string>"
                 },
                 {
+                    "name": "updated_after_ms",
+                    "required": false,
+                    "type": "unsigned int"
+                },
+                {
+                    "name": "updated_before_ms",
+                    "required": false,
+                    "type": "unsigned int"
+                },
+                {
                     "name": "user_id",
                     "required": false,
                     "type": "string"
@@ -354,7 +364,7 @@
         {
             "method": "POST",
             "endpoint": "passthreadcontrol",
-            "return": "IGGraphUser",
+            "return": "Object",
             "params": [
                 {
                     "name": "metadata",
@@ -376,7 +386,7 @@
         {
             "method": "POST",
             "endpoint": "releasethreadcontrol",
-            "return": "IGGraphUser",
+            "return": "Object",
             "params": [
                 {
                     "name": "recipient",

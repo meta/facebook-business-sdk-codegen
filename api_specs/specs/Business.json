@@ -1730,12 +1730,6 @@
         },
         {
             "method": "GET",
-            "endpoint": "passback_attribution_metadata_configs",
-            "return": "SignalsAttributionMetadataConfig",
-            "params": []
-        },
-        {
-            "method": "GET",
             "endpoint": "pending_client_ad_accounts",
             "return": "BusinessAdAccountRequest",
             "params": []

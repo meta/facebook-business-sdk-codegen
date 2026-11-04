@@ -758,7 +758,7 @@
         },
         {
             "name": "last_used_time",
-            "type": "int"
+            "type": "mixed"
         },
         {
             "name": "liable_address",
@@ -959,6 +959,10 @@
         {
             "name": "send_bill_to_addresses",
             "type": "object"
+        },
+        {
+            "name": "show_checkout_experience",
+            "type": "bool"
         },
         {
             "name": "show_improved_boleto",

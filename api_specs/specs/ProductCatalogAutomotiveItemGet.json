@@ -1,0 +1,424 @@
+{
+    "fields": [
+        {
+            "name": "address",
+            "type": "object"
+        },
+        {
+            "name": "amount_currency",
+            "type": "string"
+        },
+        {
+            "name": "amount_percentage",
+            "type": "float"
+        },
+        {
+            "name": "amount_price",
+            "type": "string"
+        },
+        {
+            "name": "amount_qualifier",
+            "type": "string"
+        },
+        {
+            "name": "applinks",
+            "type": "object"
+        },
+        {
+            "name": "automotive_model_id",
+            "type": "string"
+        },
+        {
+            "name": "availability",
+            "type": "ProductCatalogAutomotiveItemGet_availability"
+        },
+        {
+            "name": "availability_circle_radius",
+            "type": "float"
+        },
+        {
+            "name": "availability_circle_radius_unit",
+            "type": "ProductCatalogAutomotiveItemGet_availability_circle_radius_unit"
+        },
+        {
+            "name": "body_style",
+            "type": "ProductCatalogAutomotiveItemGet_body_style"
+        },
+        {
+            "name": "capabilities",
+            "type": "list<ProductCatalogAutomotiveItemGet_capabilities>"
+        },
+        {
+            "name": "capabilities_disabled_by_user",
+            "type": "list<ProductCatalogAutomotiveItemGet_capabilities_disabled_by_user>"
+        },
+        {
+            "name": "capabilities_rendering_catalog_manager",
+            "type": "list<ProductCatalogAutomotiveItemGet_capabilities_rendering_catalog_manager>"
+        },
+        {
+            "name": "carfax_dealership_id",
+            "type": "string"
+        },
+        {
+            "name": "channels_to_integrity_status",
+            "type": "object"
+        },
+        {
+            "name": "comscore_market_codes",
+            "type": "list<string>"
+        },
+        {
+            "name": "condition",
+            "type": "ProductCatalogAutomotiveItemGet_condition"
+        },
+        {
+            "name": "currency",
+            "type": "string"
+        },
+        {
+            "name": "custom_label_0",
+            "type": "string"
+        },
+        {
+            "name": "custom_label_1",
+            "type": "string"
+        },
+        {
+            "name": "custom_label_2",
+            "type": "string"
+        },
+        {
+            "name": "custom_label_3",
+            "type": "string"
+        },
+        {
+            "name": "custom_label_4",
+            "type": "string"
+        },
+        {
+            "name": "custom_number_0",
+            "type": "int"
+        },
+        {
+            "name": "custom_number_1",
+            "type": "int"
+        },
+        {
+            "name": "custom_number_2",
+            "type": "int"
+        },
+        {
+            "name": "custom_number_3",
+            "type": "int"
+        },
+        {
+            "name": "custom_number_4",
+            "type": "int"
+        },
+        {
+            "name": "date_first_on_lot",
+            "type": "string"
+        },
+        {
+            "name": "days_on_lot",
+            "type": "int"
+        },
+        {
+            "name": "dealer_communication_channel",
+            "type": "ProductCatalogAutomotiveItemGet_dealer_communication_channel"
+        },
+        {
+            "name": "dealer_email",
+            "type": "string"
+        },
+        {
+            "name": "dealer_id",
+            "type": "string"
+        },
+        {
+            "name": "dealer_name",
+            "type": "string"
+        },
+        {
+            "name": "dealer_phone",
+            "type": "string"
+        },
+        {
+            "name": "dealer_privacy_policy_url",
+            "type": "string"
+        },
+        {
+            "name": "dealer_url",
+            "type": "string"
+        },
+        {
+            "name": "default_country",
+            "type": "string"
+        },
+        {
+            "name": "default_language_locale",
+            "type": "string"
+        },
+        {
+            "name": "description",
+            "type": "string"
+        },
+        {
+            "name": "downpayment_currency",
+            "type": "string"
+        },
+        {
+            "name": "downpayment_price",
+            "type": "string"
+        },
+        {
+            "name": "downpayment_qualifier",
+            "type": "string"
+        },
+        {
+            "name": "drivetrain",
+            "type": "ProductCatalogAutomotiveItemGet_drivetrain"
+        },
+        {
+            "name": "enabled_capability_to_review_status",
+            "type": "list<object>"
+        },
+        {
+            "name": "end_date",
+            "type": "string"
+        },
+        {
+            "name": "engine_size",
+            "type": "float"
+        },
+        {
+            "name": "exterior_color",
+            "type": "string"
+        },
+        {
+            "name": "fb_page_id",
+            "type": "object"
+        },
+        {
+            "name": "features",
+            "type": "list<object>"
+        },
+        {
+            "name": "finance_description",
+            "type": "string"
+        },
+        {
+            "name": "finance_type",
+            "type": "ProductCatalogAutomotiveItemGet_finance_type"
+        },
+        {
+            "name": "fuel_type",
+            "type": "ProductCatalogAutomotiveItemGet_fuel_type"
+        },
+        {
+            "name": "generation",
+            "type": "string"
+        },
+        {
+            "name": "horse_power",
+            "type": "int"
+        },
+        {
+            "name": "id",
+            "type": "int"
+        },
+        {
+            "name": "image_fetch_status",
+            "type": "ProductCatalogAutomotiveItemGet_image_fetch_status"
+        },
+        {
+            "name": "images",
+            "type": "list<string>"
+        },
+        {
+            "name": "interior_color",
+            "type": "string"
+        },
+        {
+            "name": "interior_upholstery",
+            "type": "string"
+        },
+        {
+            "name": "is_blackholed",
+            "type": "bool"
+        },
+        {
+            "name": "legal_disclosure_impressum_url",
+            "type": "string"
+        },
+        {
+            "name": "make",
+            "type": "string"
+        },
+        {
+            "name": "mileage",
+            "type": "object"
+        },
+        {
+            "name": "model",
+            "type": "string"
+        },
+        {
+            "name": "offer_description",
+            "type": "string"
+        },
+        {
+            "name": "offer_disclaimer",
+            "type": "string"
+        },
+        {
+            "name": "offer_disclaimer_url",
+            "type": "string"
+        },
+        {
+            "name": "offer_type",
+            "type": "ProductCatalogAutomotiveItemGet_offer_type"
+        },
+        {
+            "name": "previous_currency",
+            "type": "string"
+        },
+        {
+            "name": "previous_price",
+            "type": "string"
+        },
+        {
+            "name": "price",
+            "type": "string"
+        },
+        {
+            "name": "product_feed",
+            "type": "object"
+        },
+        {
+            "name": "product_priority_0",
+            "type": "float"
+        },
+        {
+            "name": "product_priority_1",
+            "type": "float"
+        },
+        {
+            "name": "product_priority_2",
+            "type": "float"
+        },
+        {
+            "name": "product_priority_3",
+            "type": "float"
+        },
+        {
+            "name": "product_priority_4",
+            "type": "float"
+        },
+        {
+            "name": "sale_currency",
+            "type": "string"
+        },
+        {
+            "name": "sale_price",
+            "type": "string"
+        },
+        {
+            "name": "sanitized_images",
+            "type": "list<string>"
+        },
+        {
+            "name": "sanitized_previews",
+            "type": "list<string>"
+        },
+        {
+            "name": "start_date",
+            "type": "string"
+        },
+        {
+            "name": "state_of_vehicle",
+            "type": "ProductCatalogAutomotiveItemGet_state_of_vehicle"
+        },
+        {
+            "name": "stock_number",
+            "type": "string"
+        },
+        {
+            "name": "tags",
+            "type": "list<string>"
+        },
+        {
+            "name": "term_length",
+            "type": "int"
+        },
+        {
+            "name": "term_qualifier",
+            "type": "string"
+        },
+        {
+            "name": "title",
+            "type": "string"
+        },
+        {
+            "name": "transmission",
+            "type": "ProductCatalogAutomotiveItemGet_transmission"
+        },
+        {
+            "name": "trim",
+            "type": "string"
+        },
+        {
+            "name": "unit_price",
+            "type": "object"
+        },
+        {
+            "name": "url",
+            "type": "string"
+        },
+        {
+            "name": "url_shimmed",
+            "type": "string"
+        },
+        {
+            "name": "validation_errors",
+            "type": "object"
+        },
+        {
+            "name": "vehicle_id",
+            "type": "string"
+        },
+        {
+            "name": "vehicle_offer_id",
+            "type": "string"
+        },
+        {
+            "name": "vehicle_registration_plate",
+            "type": "string"
+        },
+        {
+            "name": "vehicle_specifications",
+            "type": "list<object>"
+        },
+        {
+            "name": "vehicle_type",
+            "type": "ProductCatalogAutomotiveItemGet_vehicle_type"
+        },
+        {
+            "name": "videos_metadata",
+            "type": "object"
+        },
+        {
+            "name": "vin",
+            "type": "string"
+        },
+        {
+            "name": "visibility",
+            "type": "ProductCatalogAutomotiveItemGet_visibility"
+        },
+        {
+            "name": "year",
+            "type": "int"
+        }
+    ]
+}

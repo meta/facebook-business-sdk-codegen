@@ -1,0 +1,33 @@
+{
+    "apis": [
+        {
+            "name": "genGet",
+            "method": "GET",
+            "endpoint": "rule_preview_samples",
+            "return": "ProductFeedRulePreviewSamplesGet",
+            "params": [
+                {
+                    "name": "attribute",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "fields",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "params",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "rule_type",
+                    "required": false,
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": []
+}

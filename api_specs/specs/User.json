@@ -282,6 +282,12 @@
         },
         {
             "method": "GET",
+            "endpoint": "assigned_instagram_accounts",
+            "return": "IGUser",
+            "params": []
+        },
+        {
+            "method": "GET",
             "endpoint": "assigned_pages",
             "return": "Page",
             "params": [
@@ -404,6 +410,16 @@
                     "name": "tags",
                     "required": false,
                     "type": "list<string>"
+                },
+                {
+                    "name": "updated_after_ms",
+                    "required": false,
+                    "type": "unsigned int"
+                },
+                {
+                    "name": "updated_before_ms",
+                    "required": false,
+                    "type": "unsigned int"
                 },
                 {
                     "name": "user_id",
@@ -1324,7 +1340,17 @@
             "return": "User",
             "params": [
                 {
+                    "name": "ai_disclosure",
+                    "required": false,
+                    "type": "usernotifications_ai_disclosure_enum_param"
+                },
+                {
                     "name": "bot_message_payload_elements",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "button_title",
                     "required": false,
                     "type": "string"
                 },
@@ -1362,6 +1388,11 @@
                     "name": "notification_content_id",
                     "required": false,
                     "type": "unsigned int"
+                },
+                {
+                    "name": "notification_contents",
+                    "required": false,
+                    "type": "list<map>"
                 },
                 {
                     "name": "payload",
@@ -1637,16 +1668,6 @@
                     "name": "profile_id",
                     "required": false,
                     "type": "int"
-                },
-                {
-                    "name": "provenance_info",
-                    "required": false,
-                    "type": "map"
-                },
-                {
-                    "name": "provenance_metadata",
-                    "required": false,
-                    "type": "map"
                 },
                 {
                     "name": "proxied_app_id",

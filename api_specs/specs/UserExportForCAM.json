@@ -3,12 +3,12 @@
         {
             "method": "GET",
             "endpoint": "branded_content_media",
-            "return": "IGMediaExportForCAM",
+            "return": "MediaExportForCAM",
             "params": [
                 {
                     "name": "platform",
                     "required": false,
-                    "type": "list<iguserexportforcambranded_content_media_platform_enum_param>"
+                    "type": "list<userexportforcambranded_content_media_platform_enum_param>"
                 }
             ]
         },
@@ -20,51 +20,51 @@
                 {
                     "name": "breakdown",
                     "required": false,
-                    "type": "iguserexportforcaminsights_breakdown_enum_param"
+                    "type": "userexportforcaminsights_breakdown_enum_param"
                 },
                 {
                     "name": "metrics",
                     "required": false,
-                    "type": "list<iguserexportforcaminsights_metrics_enum_param>"
+                    "type": "list<userexportforcaminsights_metrics_enum_param>"
                 },
                 {
                     "name": "period",
                     "required": false,
-                    "type": "iguserexportforcaminsights_period_enum_param"
+                    "type": "userexportforcaminsights_period_enum_param"
                 },
                 {
                     "name": "platform",
                     "required": false,
-                    "type": "list<iguserexportforcaminsights_platform_enum_param>"
+                    "type": "list<userexportforcaminsights_platform_enum_param>"
                 },
                 {
                     "name": "time_range",
                     "required": false,
-                    "type": "iguserexportforcaminsights_time_range_enum_param"
+                    "type": "userexportforcaminsights_time_range_enum_param"
                 }
             ]
         },
         {
             "method": "GET",
             "endpoint": "past_partnership_ads_media",
-            "return": "IGMediaExportForCAM",
+            "return": "MediaExportForCAM",
             "params": [
                 {
                     "name": "platform",
                     "required": false,
-                    "type": "list<iguserexportforcampast_partnership_ads_media_platform_enum_param>"
+                    "type": "list<userexportforcampast_partnership_ads_media_platform_enum_param>"
                 }
             ]
         },
         {
             "method": "GET",
             "endpoint": "recent_media",
-            "return": "IGMediaExportForCAM",
+            "return": "MediaExportForCAM",
             "params": [
                 {
                     "name": "platform",
                     "required": false,
-                    "type": "list<iguserexportforcamrecent_media_platform_enum_param>"
+                    "type": "list<userexportforcamrecent_media_platform_enum_param>"
                 }
             ]
         }
@@ -92,6 +92,10 @@
         },
         {
             "name": "email",
+            "type": "string"
+        },
+        {
+            "name": "facebook_messaging_id",
             "type": "string"
         },
         {

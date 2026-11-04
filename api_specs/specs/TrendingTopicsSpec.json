@@ -10,6 +10,10 @@
             "type": "bool"
         },
         {
+            "name": "program_id",
+            "type": "string"
+        },
+        {
             "name": "trending_topics",
             "type": "list<string>"
         }

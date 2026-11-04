@@ -2,6 +2,14 @@
     "apis": [],
     "fields": [
         {
+            "name": "ad_extensions",
+            "type": "Object"
+        },
+        {
+            "name": "collection",
+            "type": "Object"
+        },
+        {
             "name": "details_to_ad_layout",
             "type": "Object"
         },

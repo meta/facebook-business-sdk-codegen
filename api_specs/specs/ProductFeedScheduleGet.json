@@ -1,0 +1,56 @@
+{
+    "fields": [
+        {
+            "name": "day_of_month",
+            "type": "int"
+        },
+        {
+            "name": "day_of_week",
+            "type": "string"
+        },
+        {
+            "name": "feed_schedule_mode",
+            "type": "ProductFeedScheduleGet_feed_schedule_mode"
+        },
+        {
+            "name": "hour",
+            "type": "int"
+        },
+        {
+            "name": "id",
+            "type": "int"
+        },
+        {
+            "name": "interval",
+            "type": "string"
+        },
+        {
+            "name": "interval_count",
+            "type": "int"
+        },
+        {
+            "name": "minute",
+            "type": "int"
+        },
+        {
+            "name": "next_scheduled_upload_time",
+            "type": "string"
+        },
+        {
+            "name": "status",
+            "type": "ProductFeedScheduleGet_status"
+        },
+        {
+            "name": "timezone",
+            "type": "string"
+        },
+        {
+            "name": "url",
+            "type": "string"
+        },
+        {
+            "name": "username",
+            "type": "string"
+        }
+    ]
+}

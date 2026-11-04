@@ -1,3 +1,16 @@
 {
-    "fields": []
+    "fields": [
+        {
+            "name": "data",
+            "type": "list<object>"
+        },
+        {
+            "name": "paging",
+            "type": "object"
+        },
+        {
+            "name": "summary",
+            "type": "object"
+        }
+    ]
 }

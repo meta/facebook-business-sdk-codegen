@@ -70,6 +70,10 @@
             "type": "string"
         },
         {
+            "name": "ugc_spec",
+            "type": "Object"
+        },
+        {
             "name": "website_media_spec",
             "type": "Object"
         },

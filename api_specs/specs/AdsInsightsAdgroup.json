@@ -1,10 +1,10 @@
 {
     "apis": [
         {
-            "name": "genGet",
-            "method": "GET",
+            "name": "genPost",
+            "method": "POST",
             "endpoint": "insights",
-            "return": "AdsInsightsAdgroupGet",
+            "return": "AdsInsightsAdgroupPost",
             "params": [
                 {
                     "name": "action_attribution_windows",
@@ -22,17 +22,7 @@
                     "type": "string"
                 },
                 {
-                    "name": "after",
-                    "required": false,
-                    "type": "string"
-                },
-                {
                     "name": "am_call_tags",
-                    "required": false,
-                    "type": "string"
-                },
-                {
-                    "name": "before",
                     "required": false,
                     "type": "string"
                 },
@@ -57,11 +47,6 @@
                     "type": "string"
                 },
                 {
-                    "name": "debug_enable_trace",
-                    "required": false,
-                    "type": "bool"
-                },
-                {
                     "name": "default_attribution_windows",
                     "required": false,
                     "type": "string"
@@ -69,10 +54,10 @@
                 {
                     "name": "default_summary",
                     "required": false,
-                    "type": "bool"
+                    "type": "string"
                 },
                 {
-                    "name": "e2e_scenario_run_id",
+                    "name": "enable_trace",
                     "required": false,
                     "type": "string"
                 },
@@ -109,12 +94,12 @@
                 {
                     "name": "graph_cache",
                     "required": false,
-                    "type": "bool"
+                    "type": "string"
                 },
                 {
                     "name": "include_zeros",
                     "required": false,
-                    "type": "bool"
+                    "type": "string"
                 },
                 {
                     "name": "level",
@@ -124,7 +109,7 @@
                 {
                     "name": "limit",
                     "required": false,
-                    "type": "int"
+                    "type": "string"
                 },
                 {
                     "name": "meta_breakdowns",
@@ -134,7 +119,7 @@
                 {
                     "name": "product_id_limit",
                     "required": false,
-                    "type": "int"
+                    "type": "string"
                 },
                 {
                     "name": "round_up_level",
@@ -148,6 +133,11 @@
                 },
                 {
                     "name": "saber_setsuna_perf_request_id",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "scenario_run_id",
                     "required": false,
                     "type": "string"
                 },
@@ -184,12 +174,12 @@
                 {
                     "name": "use_account_attribution_setting",
                     "required": false,
-                    "type": "bool"
+                    "type": "string"
                 },
                 {
                     "name": "use_unified_attribution_setting",
                     "required": false,
-                    "type": "bool"
+                    "type": "string"
                 }
             ]
         }

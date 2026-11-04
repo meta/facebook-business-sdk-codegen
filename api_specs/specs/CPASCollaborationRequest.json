@@ -17,6 +17,10 @@
             "type": "string"
         },
         {
+            "name": "archived_time",
+            "type": "datetime"
+        },
+        {
             "name": "brands",
             "type": "list<string>"
         },

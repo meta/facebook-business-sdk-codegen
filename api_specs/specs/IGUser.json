@@ -226,8 +226,45 @@
         },
         {
             "method": "GET",
+            "endpoint": "conversations",
+            "return": "InstagramThread",
+            "params": [
+                {
+                    "name": "folder",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "platform",
+                    "required": false,
+                    "type": "shadowiguserconversations_platform_enum_param"
+                },
+                {
+                    "name": "tags",
+                    "required": false,
+                    "type": "list<string>"
+                },
+                {
+                    "name": "updated_after_ms",
+                    "required": false,
+                    "type": "unsigned int"
+                },
+                {
+                    "name": "updated_before_ms",
+                    "required": false,
+                    "type": "unsigned int"
+                },
+                {
+                    "name": "user_id",
+                    "required": false,
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "method": "GET",
             "endpoint": "creator_marketplace_creators",
-            "return": "IGUserExportForCAM",
+            "return": "UserExportForCAM",
             "params": [
                 {
                     "name": "creator_age_bucket",
@@ -253,6 +290,11 @@
                     "name": "creator_interests",
                     "required": false,
                     "type": "list<Object>"
+                },
+                {
+                    "name": "creator_language",
+                    "required": false,
+                    "type": "list<shadowigusercreator_marketplace_creators_creator_language_enum_param>"
                 },
                 {
                     "name": "creator_latest_post_activity",
@@ -288,6 +330,21 @@
                     "name": "custom_audience_id",
                     "required": false,
                     "type": "string"
+                },
+                {
+                    "name": "exclude_messaged_creators",
+                    "required": false,
+                    "type": "bool"
+                },
+                {
+                    "name": "featured_in_paid_ads",
+                    "required": false,
+                    "type": "bool"
+                },
+                {
+                    "name": "has_portfolio",
+                    "required": false,
+                    "type": "bool"
                 },
                 {
                     "name": "has_public_contact_email",
@@ -368,6 +425,11 @@
                     "name": "usernames",
                     "required": false,
                     "type": "list<string>"
+                },
+                {
+                    "name": "verified_account",
+                    "required": false,
+                    "type": "bool"
                 }
             ]
         },
@@ -386,6 +448,23 @@
                     "name": "dataset_name",
                     "required": false,
                     "type": "string"
+                }
+            ]
+        },
+        {
+            "method": "POST",
+            "endpoint": "extend_thread_control",
+            "return": "IGUser",
+            "params": [
+                {
+                    "name": "duration",
+                    "required": false,
+                    "type": "unsigned int"
+                },
+                {
+                    "name": "recipient",
+                    "required": false,
+                    "type": "Object"
                 }
             ]
         },
@@ -523,6 +602,11 @@
                     "type": "string"
                 },
                 {
+                    "name": "cross_post_to_threads",
+                    "required": false,
+                    "type": "bool"
+                },
+                {
                     "name": "image_url",
                     "required": false,
                     "type": "string"
@@ -578,7 +662,17 @@
                     "type": "bool"
                 },
                 {
+                    "name": "show_ig_link",
+                    "required": false,
+                    "type": "bool"
+                },
+                {
                     "name": "thumb_offset",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "title",
                     "required": false,
                     "type": "string"
                 },
@@ -640,6 +734,105 @@
         },
         {
             "method": "POST",
+            "endpoint": "message_attachments",
+            "return": "Object",
+            "params": [
+                {
+                    "name": "message",
+                    "required": true,
+                    "type": "map"
+                }
+            ]
+        },
+        {
+            "method": "POST",
+            "endpoint": "messages",
+            "return": "Object",
+            "params": [
+                {
+                    "name": "folder",
+                    "required": false,
+                    "type": "shadowigusermessages_folder_enum_param"
+                },
+                {
+                    "name": "message",
+                    "required": false,
+                    "type": "Object"
+                },
+                {
+                    "name": "messaging_type",
+                    "required": false,
+                    "type": "shadowigusermessages_messaging_type_enum_param"
+                },
+                {
+                    "name": "payload",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "recipient",
+                    "required": false,
+                    "type": "Object"
+                },
+                {
+                    "name": "reply_to",
+                    "required": false,
+                    "type": "Object"
+                },
+                {
+                    "name": "sender_action",
+                    "required": false,
+                    "type": "shadowigusermessages_sender_action_enum_param"
+                },
+                {
+                    "name": "tag",
+                    "required": false,
+                    "type": "Object"
+                },
+                {
+                    "name": "thread_control",
+                    "required": false,
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "method": "DELETE",
+            "endpoint": "messenger_profile",
+            "return": "Object",
+            "params": [
+                {
+                    "name": "fields",
+                    "required": true,
+                    "type": "list<shadowigusermessenger_profile_fields_enum_param>"
+                }
+            ]
+        },
+        {
+            "method": "GET",
+            "endpoint": "messenger_profile",
+            "return": "IGUserMessengerProfile",
+            "params": []
+        },
+        {
+            "method": "POST",
+            "endpoint": "messenger_profile",
+            "return": "IGUserMessengerProfile",
+            "params": [
+                {
+                    "name": "ice_breakers",
+                    "required": false,
+                    "type": "list<map>"
+                },
+                {
+                    "name": "persistent_menu",
+                    "required": false,
+                    "type": "list<Object>"
+                }
+            ]
+        },
+        {
+            "method": "POST",
             "endpoint": "moderate_conversations",
             "return": "Object",
             "params": [
@@ -660,6 +853,28 @@
             "endpoint": "notification_message_tokens",
             "return": "UserPageOneTimeOptInTokenSettings",
             "params": []
+        },
+        {
+            "method": "POST",
+            "endpoint": "pass_thread_control",
+            "return": "Object",
+            "params": [
+                {
+                    "name": "metadata",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "recipient",
+                    "required": false,
+                    "type": "Object"
+                },
+                {
+                    "name": "target_app_id",
+                    "required": false,
+                    "type": "string"
+                }
+            ]
         },
         {
             "method": "GET",
@@ -697,6 +912,35 @@
             "params": []
         },
         {
+            "method": "POST",
+            "endpoint": "release_thread_control",
+            "return": "IGUser",
+            "params": [
+                {
+                    "name": "recipient",
+                    "required": false,
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "method": "POST",
+            "endpoint": "request_thread_control",
+            "return": "Object",
+            "params": [
+                {
+                    "name": "metadata",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "recipient",
+                    "required": false,
+                    "type": "Object"
+                }
+            ]
+        },
+        {
             "method": "GET",
             "endpoint": "scheduled_media",
             "return": "ShadowIGScheduledMedia",
@@ -707,6 +951,30 @@
             "endpoint": "stories",
             "return": "IGMedia",
             "params": []
+        },
+        {
+            "method": "DELETE",
+            "endpoint": "subscribed_apps",
+            "return": "Object",
+            "params": []
+        },
+        {
+            "method": "GET",
+            "endpoint": "subscribed_apps",
+            "return": "IGUserSubscribedAppsData",
+            "params": []
+        },
+        {
+            "method": "POST",
+            "endpoint": "subscribed_apps",
+            "return": "IGUser",
+            "params": [
+                {
+                    "name": "subscribed_fields",
+                    "required": true,
+                    "type": "list<shadowigusersubscribed_apps_subscribed_fields_enum_param>"
+                }
+            ]
         },
         {
             "method": "GET",
@@ -726,6 +994,35 @@
                 {
                     "name": "posted_before",
                     "required": false,
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "method": "POST",
+            "endpoint": "take_thread_control",
+            "return": "Object",
+            "params": [
+                {
+                    "name": "metadata",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "recipient",
+                    "required": false,
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "method": "GET",
+            "endpoint": "thread_owner",
+            "return": "ShadowIGUserThreadOwner",
+            "params": [
+                {
+                    "name": "recipient",
+                    "required": true,
                     "type": "string"
                 }
             ]
@@ -764,6 +1061,18 @@
             ]
         },
         {
+            "method": "DELETE",
+            "endpoint": "welcome_message_flows",
+            "return": "Object",
+            "params": [
+                {
+                    "name": "flow_id",
+                    "required": false,
+                    "type": "string"
+                }
+            ]
+        },
+        {
             "method": "GET",
             "endpoint": "welcome_message_flows",
             "return": "ShadowIGUserCTXPartnerAppWelcomeMessageFlow",
@@ -777,6 +1086,33 @@
                     "name": "flow_id",
                     "required": false,
                     "type": "string"
+                }
+            ]
+        },
+        {
+            "method": "POST",
+            "endpoint": "welcome_message_flows",
+            "return": "ShadowIGUserCTXPartnerAppWelcomeMessageFlow",
+            "params": [
+                {
+                    "name": "eligible_platforms",
+                    "required": false,
+                    "type": "list<shadowiguserwelcome_message_flows_eligible_platforms_enum_param>"
+                },
+                {
+                    "name": "flow_id",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "name",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "welcome_message_flow",
+                    "required": false,
+                    "type": "list<Object>"
                 }
             ]
         },

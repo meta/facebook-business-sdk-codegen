@@ -1,0 +1,63 @@
+{
+    "apis": [
+        {
+            "name": "genGet",
+            "method": "GET",
+            "endpoint": "offline_event_uploads",
+            "return": "AdsPixelOfflineEventUploadsGet",
+            "params": [
+                {
+                    "name": "after",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "before",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "date_format",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "end_time",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "fields",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "limit",
+                    "required": false,
+                    "type": "int"
+                },
+                {
+                    "name": "order",
+                    "required": false,
+                    "type": "AdsPixelOfflineEventUploadsGet_order_enum_param"
+                },
+                {
+                    "name": "sort_by",
+                    "required": false,
+                    "type": "AdsPixelOfflineEventUploadsGet_sort_by_enum_param"
+                },
+                {
+                    "name": "start_time",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "upload_tag",
+                    "required": false,
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": []
+}

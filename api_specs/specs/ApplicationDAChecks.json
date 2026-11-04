@@ -1,0 +1,53 @@
+{
+    "apis": [
+        {
+            "name": "genGet",
+            "method": "GET",
+            "endpoint": "da_checks",
+            "return": "ApplicationDAChecksGet",
+            "params": [
+                {
+                    "name": "capabilities",
+                    "required": false,
+                    "type": "list<ApplicationDAChecksGet_capabilities_enum_param>"
+                },
+                {
+                    "name": "catalog_id",
+                    "required": false,
+                    "type": "int"
+                },
+                {
+                    "name": "categories",
+                    "required": false,
+                    "type": "list<ApplicationDAChecksGet_categories_enum_param>"
+                },
+                {
+                    "name": "checks",
+                    "required": false,
+                    "type": "list<string>"
+                },
+                {
+                    "name": "connection_method",
+                    "required": false,
+                    "type": "ApplicationDAChecksGet_connection_method_enum_param"
+                },
+                {
+                    "name": "features",
+                    "required": false,
+                    "type": "list<ApplicationDAChecksGet_features_enum_param>"
+                },
+                {
+                    "name": "fields",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "with_issue_only",
+                    "required": false,
+                    "type": "bool"
+                }
+            ]
+        }
+    ],
+    "fields": []
+}

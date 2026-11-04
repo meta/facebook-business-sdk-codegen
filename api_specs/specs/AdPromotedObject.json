@@ -130,6 +130,10 @@
             "type": "Object"
         },
         {
+            "name": "optimization_product_set_id",
+            "type": "string"
+        },
+        {
             "name": "page_id",
             "type": "string"
         },

@@ -1,0 +1,25 @@
+{
+    "apis": [],
+    "fields": [
+        {
+            "name": "ad_ids",
+            "type": "list<string>"
+        },
+        {
+            "name": "analysis_status",
+            "type": "string"
+        },
+        {
+            "name": "asset_type",
+            "type": "string"
+        },
+        {
+            "name": "checks",
+            "type": "list<Object>"
+        },
+        {
+            "name": "creative_id",
+            "type": "string"
+        }
+    ]
+}

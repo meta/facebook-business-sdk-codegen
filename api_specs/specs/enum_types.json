@@ -455,8 +455,10 @@
         "field_or_param": "date_preset",
         "values": [
             "DATA_MAXIMUM",
+            "LAST_12M",
             "LAST_14D",
             "LAST_14_DAYS",
+            "LAST_180D",
             "LAST_180_DAYS",
             "LAST_24M",
             "LAST_28D",
@@ -469,6 +471,7 @@
             "LAST_3_DAYS",
             "LAST_3_MONTHS",
             "LAST_40D",
+            "LAST_60D",
             "LAST_7D",
             "LAST_7_DAYS",
             "LAST_8_DAYS",
@@ -518,8 +521,10 @@
         "field_or_param": "date_preset",
         "values": [
             "DATA_MAXIMUM",
+            "LAST_12M",
             "LAST_14D",
             "LAST_14_DAYS",
+            "LAST_180D",
             "LAST_180_DAYS",
             "LAST_24M",
             "LAST_28D",
@@ -532,6 +537,7 @@
             "LAST_3_DAYS",
             "LAST_3_MONTHS",
             "LAST_40D",
+            "LAST_60D",
             "LAST_7D",
             "LAST_7_DAYS",
             "LAST_8_DAYS",
@@ -581,8 +587,10 @@
         "field_or_param": "date_preset",
         "values": [
             "DATA_MAXIMUM",
+            "LAST_12M",
             "LAST_14D",
             "LAST_14_DAYS",
+            "LAST_180D",
             "LAST_180_DAYS",
             "LAST_24M",
             "LAST_28D",
@@ -595,6 +603,7 @@
             "LAST_3_DAYS",
             "LAST_3_MONTHS",
             "LAST_40D",
+            "LAST_60D",
             "LAST_7D",
             "LAST_7_DAYS",
             "LAST_8_DAYS",
@@ -846,6 +855,7 @@
             "BOOK_TRAVEL",
             "BROWSE_SHOP",
             "BUY",
+            "BUY_ACTIVITY_TICKETS",
             "BUY_NOW",
             "BUY_TICKETS",
             "BUY_VIA_MESSAGE",
@@ -915,6 +925,7 @@
             "SOTTO_SUBSCRIBE",
             "START_A_CHAT",
             "START_ORDER",
+            "STREAM_NOW",
             "SUBSCRIBE",
             "SWIPE_UP_PRODUCT",
             "SWIPE_UP_SHOP",
@@ -933,6 +944,7 @@
             "VISIT_WEBSITE",
             "WATCH_LIVE_VIDEO",
             "WATCH_MORE",
+            "WATCH_NOW",
             "WATCH_VIDEO",
             "WHATSAPP_MESSAGE",
             "WOODHENGE_SUPPORT"
@@ -1130,6 +1142,7 @@
             "BOOK_TRAVEL",
             "BROWSE_SHOP",
             "BUY",
+            "BUY_ACTIVITY_TICKETS",
             "BUY_NOW",
             "BUY_TICKETS",
             "BUY_VIA_MESSAGE",
@@ -1239,6 +1252,7 @@
             "SOTTO_SUBSCRIBE",
             "START_A_CHAT",
             "START_ORDER",
+            "STREAM_NOW",
             "SUBSCRIBE",
             "SWIPE_UP_PRODUCT",
             "SWIPE_UP_SHOP",
@@ -1269,6 +1283,7 @@
             "WATCH_LIVE_VIDEO",
             "WATCH_MORE",
             "WATCH_MUSIC_VIDEO",
+            "WATCH_NOW",
             "WATCH_VIDEO",
             "WHATSAPP_LINK",
             "WHATSAPP_MESSAGE",
@@ -1364,6 +1379,7 @@
             "BOOK_TRAVEL",
             "BROWSE_SHOP",
             "BUY",
+            "BUY_ACTIVITY_TICKETS",
             "BUY_NOW",
             "BUY_TICKETS",
             "BUY_VIA_MESSAGE",
@@ -1433,6 +1449,7 @@
             "SOTTO_SUBSCRIBE",
             "START_A_CHAT",
             "START_ORDER",
+            "STREAM_NOW",
             "SUBSCRIBE",
             "SWIPE_UP_PRODUCT",
             "SWIPE_UP_SHOP",
@@ -1451,6 +1468,7 @@
             "VISIT_WEBSITE",
             "WATCH_LIVE_VIDEO",
             "WATCH_MORE",
+            "WATCH_NOW",
             "WATCH_VIDEO",
             "WHATSAPP_MESSAGE",
             "WOODHENGE_SUPPORT"
@@ -1793,6 +1811,7 @@
             "BOOK_TRAVEL",
             "BROWSE_SHOP",
             "BUY",
+            "BUY_ACTIVITY_TICKETS",
             "BUY_NOW",
             "BUY_TICKETS",
             "BUY_VIA_MESSAGE",
@@ -1862,6 +1881,7 @@
             "SOTTO_SUBSCRIBE",
             "START_A_CHAT",
             "START_ORDER",
+            "STREAM_NOW",
             "SUBSCRIBE",
             "SWIPE_UP_PRODUCT",
             "SWIPE_UP_SHOP",
@@ -1880,6 +1900,7 @@
             "VISIT_WEBSITE",
             "WATCH_LIVE_VIDEO",
             "WATCH_MORE",
+            "WATCH_NOW",
             "WATCH_VIDEO",
             "WHATSAPP_MESSAGE",
             "WOODHENGE_SUPPORT"
@@ -2311,6 +2332,72 @@
         ]
     },
     {
+        "name": "AdgroupGet_date_preset_enum_param",
+        "node": "AdgroupGet",
+        "field_or_param": "date_preset",
+        "values": [
+            "DATA_MAXIMUM",
+            "LAST_12M",
+            "LAST_14D",
+            "LAST_14_DAYS",
+            "LAST_180D",
+            "LAST_180_DAYS",
+            "LAST_24M",
+            "LAST_28D",
+            "LAST_28_DAYS",
+            "LAST_2D",
+            "LAST_2_DAYS",
+            "LAST_30D",
+            "LAST_30_DAYS",
+            "LAST_3D",
+            "LAST_3_DAYS",
+            "LAST_3_MONTHS",
+            "LAST_40D",
+            "LAST_60D",
+            "LAST_7D",
+            "LAST_7_DAYS",
+            "LAST_8_DAYS",
+            "LAST_90D",
+            "LAST_90_DAYS",
+            "LAST_MONTH",
+            "LAST_ND_3_2",
+            "LAST_ND_4_3",
+            "LAST_ND_5_4",
+            "LAST_ND_6_5",
+            "LAST_ND_7_6",
+            "LAST_ND_8_7",
+            "LAST_NM_1_0",
+            "LAST_NM_2_0",
+            "LAST_NM_3_0",
+            "LAST_NM_3_2",
+            "LAST_NM_4_3",
+            "LAST_NM_5_4",
+            "LAST_NQ_2_0",
+            "LAST_NQ_2_1",
+            "LAST_NQ_3_0",
+            "LAST_NQ_3_1",
+            "LAST_QUARTER",
+            "LAST_WEEK",
+            "LAST_WEEK_MON_SUN",
+            "LAST_WEEK_SUN_SAT",
+            "LAST_YEAR",
+            "LIFETIME",
+            "MAXIMUM",
+            "NONE",
+            "THIS_MONTH",
+            "THIS_MONTH_NO_TODAY",
+            "THIS_QUARTER",
+            "THIS_WEEK",
+            "THIS_WEEK_MON_NO_TODAY",
+            "THIS_WEEK_MON_TODAY",
+            "THIS_WEEK_SUN_NO_TODAY",
+            "THIS_WEEK_SUN_TODAY",
+            "THIS_YEAR",
+            "TODAY",
+            "YESTERDAY"
+        ]
+    },
+    {
         "name": "AdsNamingTemplate_level",
         "node": "AdsNamingTemplate",
         "field_or_param": "level",
@@ -2324,6 +2411,285 @@
             "PRODUCT",
             "TOPLINE",
             "UNIQUE_ADCREATIVE"
+        ]
+    },
+    {
+        "name": "AdsPixelActivitiesHead_event_type_enum_param",
+        "node": "AdsPixelActivitiesHead",
+        "field_or_param": "event_type",
+        "values": [
+            "ADD_DATASET_TO_BUSINESS",
+            "ADD_USER_TO_DATASET",
+            "CREATE_CUSTOM_AUDIENCE",
+            "CREATE_CUSTOM_CONVERSION",
+            "DATASET_ASSIGN_TO_ADACCT",
+            "DATASET_AUTOTRACK_ON_ADACCT",
+            "DATASET_DISABLE_AUTOTRACK_ON_ADACCT",
+            "DATASET_UNASSIGN_FROM_ADACCT",
+            "REMOVE_USER_FROM_DATASET",
+            "SHARE_CUSTOM_AUDIENCE",
+            "UNSHARE_CUSTOM_AUDIENCE",
+            "UPDATE_CUSTOM_CONVERSION",
+            "UPDATE_USER_ROLE_ON_DATASET"
+        ]
+    },
+    {
+        "name": "AdsPixelDAChecksGet_action_source_enum_param",
+        "node": "AdsPixelDAChecksGet",
+        "field_or_param": "action_source",
+        "values": [
+            "APP",
+            "BUSINESS_MESSAGING",
+            "CHAT",
+            "EMAIL",
+            "OTHER",
+            "PHONE_CALL",
+            "PHYSICAL_STORE",
+            "SYSTEM_GENERATED",
+            "WEBSITE"
+        ]
+    },
+    {
+        "name": "AdsPixelDAChecksGet_capabilities_enum_param",
+        "node": "AdsPixelDAChecksGet",
+        "field_or_param": "capabilities",
+        "values": [
+            "B2C_MARKETPLACE",
+            "C2C_MARKETPLACE",
+            "DA",
+            "DAILY_DEALS",
+            "DAILY_DEALS_LEGACY",
+            "IG_PRODUCT_TAGGING",
+            "MARKETPLACE",
+            "MARKETPLACE_ADS_DEPRECATED",
+            "MARKETPLACE_SHOPS",
+            "MINI_SHOPS",
+            "OFFLINE_CONVERSIONS",
+            "SHOPS",
+            "UNIVERSAL_CHECKOUT",
+            "WHATSAPP"
+        ]
+    },
+    {
+        "name": "AdsPixelDAChecksGet_categories_enum_param",
+        "node": "AdsPixelDAChecksGet",
+        "field_or_param": "categories",
+        "values": [
+            "APPLIANCES",
+            "BABY_FEEDING",
+            "BABY_TRANSPORT",
+            "BEAUTY",
+            "BEDDING",
+            "CAMERAS",
+            "CAMERAS_AND_PHOTOS",
+            "CELL_PHONES_AND_SMART_WATCHES",
+            "CLEANING_SUPPLIES",
+            "CLOTHING",
+            "CLOTHING_ACCESSORIES",
+            "CLO_OFFER",
+            "COMPUTERS_AND_TABLETS",
+            "COMPUTERS_LAPTOPS_AND_TABLETS",
+            "COMPUTER_COMPONENTS",
+            "DIAPERING_AND_POTTY_TRAINING",
+            "ELECTRONICS_ACCESSORIES",
+            "ELECTRONIC_ACCESSORIES_AND_CABLES",
+            "EMPTY",
+            "FURNITURE",
+            "HEALTH",
+            "HOME",
+            "HOME_GOODS",
+            "HOUSEHOLD_AND_CLEANING_SUPPLIES",
+            "JEWELRY",
+            "LARGE_APPLIANCES",
+            "LOCAL_SERVICE_BUSINESS_ITEM",
+            "LOCAL_SERVICE_BUSINESS_RESTAURANT",
+            "NURSERY",
+            "PRINTERS_AND_SCANNERS",
+            "PRINTERS_SCANNERS_AND_FAX_MACHINES",
+            "PRODUCT_DISCOUNT",
+            "PROJECTORS",
+            "SHOES",
+            "SHOES_AND_FOOTWEAR",
+            "SOFTWARE",
+            "TELEVISIONS_AND_MONITORS",
+            "TEST_CHILD_SUB_VERTICAL",
+            "TEST_GRAND_CHILD_SUB_VERTICAL",
+            "TEST_SUB_VERTICAL",
+            "TEST_SUB_VERTICAL_ALIAS",
+            "TEST_SUB_VERTICAL_DATA_OBJECT",
+            "THIRD_PARTY_ELECTRONICS",
+            "THIRD_PARTY_TOYS_AND_GAMES",
+            "TOYS",
+            "TOYS_AND_GAMES",
+            "TVS_AND_MONITORS",
+            "VEHICLE_MANUFACTURER",
+            "VIDEO_GAMES_AND_CONSOLES",
+            "VIDEO_GAME_CONSOLES_AND_VIDEO_GAMES",
+            "VIDEO_PROJECTORS",
+            "WATCHES"
+        ]
+    },
+    {
+        "name": "AdsPixelDAChecksGet_connection_method_enum_param",
+        "node": "AdsPixelDAChecksGet",
+        "field_or_param": "connection_method",
+        "values": [
+            "ALL",
+            "APP",
+            "BROWSER",
+            "SERVER"
+        ]
+    },
+    {
+        "name": "AdsPixelDAChecksGet_features_enum_param",
+        "node": "AdsPixelDAChecksGet",
+        "field_or_param": "features",
+        "values": [
+            "AGENTIC_CHECKOUT",
+            "AGENTIC_CHECKOUT_PRE_CLICK",
+            "AMAZON_BUY_WITH_PRIME",
+            "AUGMENTED_REALITY",
+            "CHECKOUT",
+            "INTEGRATED_CHECKOUT_LOWES",
+            "INTEGRATED_CHECKOUT_MELI",
+            "INTEGRATED_CHECKOUT_SHEIN",
+            "INTEGRATED_CHECKOUT_SHOPEE",
+            "INTEGRATED_CHECKOUT_WALMART",
+            "INTEGRATED_CHECKOUT_ZALANDO",
+            "LIVE_SHOPPING"
+        ]
+    },
+    {
+        "name": "AdsPixelOfflineEventUploadsGet_order_enum_param",
+        "node": "AdsPixelOfflineEventUploadsGet",
+        "field_or_param": "order",
+        "values": [
+            "ASCENDING",
+            "DESCENDING"
+        ]
+    },
+    {
+        "name": "AdsPixelOfflineEventUploadsGet_sort_by_enum_param",
+        "node": "AdsPixelOfflineEventUploadsGet",
+        "field_or_param": "sort_by",
+        "values": [
+            "API_CALLS",
+            "CREATION_TIME",
+            "EVENT_TIME_MAX",
+            "EVENT_TIME_MIN",
+            "FIRST_UPLOAD_TIME",
+            "IS_EXCLUDED_FOR_LIFT",
+            "LAST_UPLOAD_TIME"
+        ]
+    },
+    {
+        "name": "ApplicationDAChecksGet_capabilities_enum_param",
+        "node": "ApplicationDAChecksGet",
+        "field_or_param": "capabilities",
+        "values": [
+            "B2C_MARKETPLACE",
+            "C2C_MARKETPLACE",
+            "DA",
+            "DAILY_DEALS",
+            "DAILY_DEALS_LEGACY",
+            "IG_PRODUCT_TAGGING",
+            "MARKETPLACE",
+            "MARKETPLACE_ADS_DEPRECATED",
+            "MARKETPLACE_SHOPS",
+            "MINI_SHOPS",
+            "OFFLINE_CONVERSIONS",
+            "SHOPS",
+            "UNIVERSAL_CHECKOUT",
+            "WHATSAPP"
+        ]
+    },
+    {
+        "name": "ApplicationDAChecksGet_categories_enum_param",
+        "node": "ApplicationDAChecksGet",
+        "field_or_param": "categories",
+        "values": [
+            "APPLIANCES",
+            "BABY_FEEDING",
+            "BABY_TRANSPORT",
+            "BEAUTY",
+            "BEDDING",
+            "CAMERAS",
+            "CAMERAS_AND_PHOTOS",
+            "CELL_PHONES_AND_SMART_WATCHES",
+            "CLEANING_SUPPLIES",
+            "CLOTHING",
+            "CLOTHING_ACCESSORIES",
+            "CLO_OFFER",
+            "COMPUTERS_AND_TABLETS",
+            "COMPUTERS_LAPTOPS_AND_TABLETS",
+            "COMPUTER_COMPONENTS",
+            "DIAPERING_AND_POTTY_TRAINING",
+            "ELECTRONICS_ACCESSORIES",
+            "ELECTRONIC_ACCESSORIES_AND_CABLES",
+            "EMPTY",
+            "FURNITURE",
+            "HEALTH",
+            "HOME",
+            "HOME_GOODS",
+            "HOUSEHOLD_AND_CLEANING_SUPPLIES",
+            "JEWELRY",
+            "LARGE_APPLIANCES",
+            "LOCAL_SERVICE_BUSINESS_ITEM",
+            "LOCAL_SERVICE_BUSINESS_RESTAURANT",
+            "NURSERY",
+            "PRINTERS_AND_SCANNERS",
+            "PRINTERS_SCANNERS_AND_FAX_MACHINES",
+            "PRODUCT_DISCOUNT",
+            "PROJECTORS",
+            "SHOES",
+            "SHOES_AND_FOOTWEAR",
+            "SOFTWARE",
+            "TELEVISIONS_AND_MONITORS",
+            "TEST_CHILD_SUB_VERTICAL",
+            "TEST_GRAND_CHILD_SUB_VERTICAL",
+            "TEST_SUB_VERTICAL",
+            "TEST_SUB_VERTICAL_ALIAS",
+            "TEST_SUB_VERTICAL_DATA_OBJECT",
+            "THIRD_PARTY_ELECTRONICS",
+            "THIRD_PARTY_TOYS_AND_GAMES",
+            "TOYS",
+            "TOYS_AND_GAMES",
+            "TVS_AND_MONITORS",
+            "VEHICLE_MANUFACTURER",
+            "VIDEO_GAMES_AND_CONSOLES",
+            "VIDEO_GAME_CONSOLES_AND_VIDEO_GAMES",
+            "VIDEO_PROJECTORS",
+            "WATCHES"
+        ]
+    },
+    {
+        "name": "ApplicationDAChecksGet_connection_method_enum_param",
+        "node": "ApplicationDAChecksGet",
+        "field_or_param": "connection_method",
+        "values": [
+            "ALL",
+            "APP",
+            "BROWSER",
+            "SERVER"
+        ]
+    },
+    {
+        "name": "ApplicationDAChecksGet_features_enum_param",
+        "node": "ApplicationDAChecksGet",
+        "field_or_param": "features",
+        "values": [
+            "AGENTIC_CHECKOUT",
+            "AGENTIC_CHECKOUT_PRE_CLICK",
+            "AMAZON_BUY_WITH_PRIME",
+            "AUGMENTED_REALITY",
+            "CHECKOUT",
+            "INTEGRATED_CHECKOUT_LOWES",
+            "INTEGRATED_CHECKOUT_MELI",
+            "INTEGRATED_CHECKOUT_SHEIN",
+            "INTEGRATED_CHECKOUT_SHOPEE",
+            "INTEGRATED_CHECKOUT_WALMART",
+            "INTEGRATED_CHECKOUT_ZALANDO",
+            "LIVE_SHOPPING"
         ]
     },
     {
@@ -2955,6 +3321,7 @@
             "MINI_SHOPS",
             "NEIGHBORHOODS",
             "OFFLINE_CONVERSIONS",
+            "ORGANIC_DISCOVERY",
             "PROFILE",
             "SERVICE",
             "SHOPS",
@@ -2994,6 +3361,7 @@
             "MINI_SHOPS",
             "NEIGHBORHOODS",
             "OFFLINE_CONVERSIONS",
+            "ORGANIC_DISCOVERY",
             "PROFILE",
             "SERVICE",
             "SHOPS",
@@ -3283,6 +3651,29 @@
         ]
     },
     {
+        "name": "OfflineConversionDataSetUploadsGet_order_enum_param",
+        "node": "OfflineConversionDataSetUploadsGet",
+        "field_or_param": "order",
+        "values": [
+            "ASCENDING",
+            "DESCENDING"
+        ]
+    },
+    {
+        "name": "OfflineConversionDataSetUploadsGet_sort_by_enum_param",
+        "node": "OfflineConversionDataSetUploadsGet",
+        "field_or_param": "sort_by",
+        "values": [
+            "API_CALLS",
+            "CREATION_TIME",
+            "EVENT_TIME_MAX",
+            "EVENT_TIME_MIN",
+            "FIRST_UPLOAD_TIME",
+            "IS_EXCLUDED_FOR_LIFT",
+            "LAST_UPLOAD_TIME"
+        ]
+    },
+    {
         "name": "OfflineProductItem_image_fetch_status",
         "node": "OfflineProductItem",
         "field_or_param": "image_fetch_status",
@@ -3322,6 +3713,290 @@
             "connected_tv",
             "desktop",
             "mobile"
+        ]
+    },
+    {
+        "name": "ProductCatalogAutomotiveItemGet_availability",
+        "node": "ProductCatalogAutomotiveItemGet",
+        "field_or_param": "availability",
+        "values": [
+            "AVAILABLE",
+            "NOT_AVAILABLE",
+            "PENDING",
+            "UNKNOWN"
+        ]
+    },
+    {
+        "name": "ProductCatalogAutomotiveItemGet_availability_circle_radius_unit",
+        "node": "ProductCatalogAutomotiveItemGet",
+        "field_or_param": "availability_circle_radius_unit",
+        "values": [
+            "KM",
+            "MI"
+        ]
+    },
+    {
+        "name": "ProductCatalogAutomotiveItemGet_body_style",
+        "node": "ProductCatalogAutomotiveItemGet",
+        "field_or_param": "body_style",
+        "values": [
+            "CONVERTIBLE",
+            "COUPE",
+            "CROSSOVER",
+            "ESTATE",
+            "GRANDTOURER",
+            "HATCHBACK",
+            "MINIBUS",
+            "MINIVAN",
+            "MPV",
+            "NONE",
+            "OTHER",
+            "PICKUP",
+            "ROADSTER",
+            "SALOON",
+            "SEDAN",
+            "SMALL_CAR",
+            "SPORTSCAR",
+            "SUPERCAR",
+            "SUPERMINI",
+            "SUV",
+            "TRUCK",
+            "VAN",
+            "WAGON"
+        ]
+    },
+    {
+        "name": "ProductCatalogAutomotiveItemGet_capabilities",
+        "node": "ProductCatalogAutomotiveItemGet",
+        "field_or_param": "capabilities",
+        "values": [
+            "B2C_MARKETPLACE",
+            "C2C_MARKETPLACE",
+            "DA",
+            "DAILY_DEALS",
+            "DAILY_DEALS_LEGACY",
+            "IG_PRODUCT_TAGGING",
+            "MARKETPLACE",
+            "MARKETPLACE_ADS_DEPRECATED",
+            "MARKETPLACE_SHOPS",
+            "MINI_SHOPS",
+            "OFFLINE_CONVERSIONS",
+            "SHOPS",
+            "UNIVERSAL_CHECKOUT",
+            "WHATSAPP"
+        ]
+    },
+    {
+        "name": "ProductCatalogAutomotiveItemGet_capabilities_disabled_by_user",
+        "node": "ProductCatalogAutomotiveItemGet",
+        "field_or_param": "capabilities_disabled_by_user",
+        "values": [
+            "B2C_MARKETPLACE",
+            "BIZ_MSG_AI_AGENT",
+            "BUSINESS_INBOX_IN_MESSENGER",
+            "BUY_ON_FACEBOOK",
+            "C2C_MARKETPLACE",
+            "CPAS_PARENT_CATALOG",
+            "DA",
+            "DAILY_DEALS",
+            "DAILY_DEALS_LEGACY",
+            "EVENT",
+            "EVENT_DEPRECATED",
+            "GROUPS",
+            "IG_ONSITE_SHOPPING",
+            "IG_PRODUCT_TAGGING",
+            "LDP",
+            "MARKETPLACE",
+            "MARKETPLACE_ADS_DEPRECATED",
+            "MARKETPLACE_HOME_RENTALS",
+            "MARKETPLACE_HOME_SALES",
+            "MARKETPLACE_MOTORS",
+            "MARKETPLACE_SHOPS",
+            "MINI_SHOPS",
+            "NEIGHBORHOODS",
+            "OFFLINE_CONVERSIONS",
+            "ORGANIC_DISCOVERY",
+            "PROFILE",
+            "SERVICE",
+            "SHOPS",
+            "TEST_CAPABILITY",
+            "UNIVERSAL_CHECKOUT",
+            "US_MARKETPLACE",
+            "WHATSAPP",
+            "WHATSAPP_MARKETING_MESSAGE"
+        ]
+    },
+    {
+        "name": "ProductCatalogAutomotiveItemGet_capabilities_rendering_catalog_manager",
+        "node": "ProductCatalogAutomotiveItemGet",
+        "field_or_param": "capabilities_rendering_catalog_manager",
+        "values": [
+            "B2C_MARKETPLACE",
+            "C2C_MARKETPLACE",
+            "DA",
+            "DAILY_DEALS",
+            "DAILY_DEALS_LEGACY",
+            "IG_PRODUCT_TAGGING",
+            "MARKETPLACE",
+            "MARKETPLACE_ADS_DEPRECATED",
+            "MARKETPLACE_SHOPS",
+            "MINI_SHOPS",
+            "OFFLINE_CONVERSIONS",
+            "SHOPS",
+            "UNIVERSAL_CHECKOUT",
+            "WHATSAPP"
+        ]
+    },
+    {
+        "name": "ProductCatalogAutomotiveItemGet_condition",
+        "node": "ProductCatalogAutomotiveItemGet",
+        "field_or_param": "condition",
+        "values": [
+            "EXCELLENT",
+            "FAIR",
+            "GOOD",
+            "NONE",
+            "OTHER",
+            "POOR",
+            "VERY_GOOD"
+        ]
+    },
+    {
+        "name": "ProductCatalogAutomotiveItemGet_dealer_communication_channel",
+        "node": "ProductCatalogAutomotiveItemGet",
+        "field_or_param": "dealer_communication_channel",
+        "values": [
+            "CHAT",
+            "EMAIL_CHAT_PROXY",
+            "LEAD_FORM",
+            "UNKNOWN"
+        ]
+    },
+    {
+        "name": "ProductCatalogAutomotiveItemGet_display_format_enum_param",
+        "node": "ProductCatalogAutomotiveItemGet",
+        "field_or_param": "display_format",
+        "values": [
+            "CAROUSEL_AD",
+            "SHOPS_PDP",
+            "SINGLE_AD"
+        ]
+    },
+    {
+        "name": "ProductCatalogAutomotiveItemGet_drivetrain",
+        "node": "ProductCatalogAutomotiveItemGet",
+        "field_or_param": "drivetrain",
+        "values": [
+            "AWD",
+            "FOUR_WD",
+            "FWD",
+            "NONE",
+            "OTHER",
+            "RWD",
+            "TWO_WD"
+        ]
+    },
+    {
+        "name": "ProductCatalogAutomotiveItemGet_finance_type",
+        "node": "ProductCatalogAutomotiveItemGet",
+        "field_or_param": "finance_type",
+        "values": [
+            "HIRE_PURCHASE",
+            "LEASE",
+            "NONE",
+            "NO_FINANCE",
+            "PERSONAL_CONTRACT_PURCHASE"
+        ]
+    },
+    {
+        "name": "ProductCatalogAutomotiveItemGet_fuel_type",
+        "node": "ProductCatalogAutomotiveItemGet",
+        "field_or_param": "fuel_type",
+        "values": [
+            "DIESEL",
+            "ELECTRIC",
+            "FLEX",
+            "GASOLINE",
+            "HYBRID",
+            "NONE",
+            "OTHER",
+            "PETROL",
+            "PLUGIN_HYBRID"
+        ]
+    },
+    {
+        "name": "ProductCatalogAutomotiveItemGet_image_fetch_status",
+        "node": "ProductCatalogAutomotiveItemGet",
+        "field_or_param": "image_fetch_status",
+        "values": [
+            "DIRECT_UPLOAD",
+            "FETCHED",
+            "FETCH_FAILED",
+            "NO_STATUS",
+            "OUTDATED",
+            "PARTIAL_FETCH"
+        ]
+    },
+    {
+        "name": "ProductCatalogAutomotiveItemGet_offer_type",
+        "node": "ProductCatalogAutomotiveItemGet",
+        "field_or_param": "offer_type",
+        "values": [
+            "CASH",
+            "FINANCE",
+            "LEASE",
+            "NONE"
+        ]
+    },
+    {
+        "name": "ProductCatalogAutomotiveItemGet_state_of_vehicle",
+        "node": "ProductCatalogAutomotiveItemGet",
+        "field_or_param": "state_of_vehicle",
+        "values": [
+            "CPO",
+            "NEW",
+            "USED"
+        ]
+    },
+    {
+        "name": "ProductCatalogAutomotiveItemGet_transmission",
+        "node": "ProductCatalogAutomotiveItemGet",
+        "field_or_param": "transmission",
+        "values": [
+            "AUTOMATIC",
+            "MANUAL",
+            "NONE",
+            "OTHER"
+        ]
+    },
+    {
+        "name": "ProductCatalogAutomotiveItemGet_vehicle_type",
+        "node": "ProductCatalogAutomotiveItemGet",
+        "field_or_param": "vehicle_type",
+        "values": [
+            "BOAT",
+            "CAR_TRUCK",
+            "COMMERCIAL",
+            "MOTORCYCLE",
+            "OTHER",
+            "POWERSPORT",
+            "RV_CAMPER",
+            "TRAILER"
+        ]
+    },
+    {
+        "name": "ProductCatalogAutomotiveItemGet_visibility",
+        "node": "ProductCatalogAutomotiveItemGet",
+        "field_or_param": "visibility",
+        "values": [
+            "ACTIVE",
+            "ARCHIVED",
+            "HIDDEN",
+            "LEGACY_PUBLIC",
+            "PUBLISHED",
+            "STAGING",
+            "VISIBLE_ONLY_WITH_OVERRIDES",
+            "WHITELIST_ONLY"
         ]
     },
     {
@@ -3540,6 +4215,126 @@
         ]
     },
     {
+        "name": "ProductCatalogProductFeedsPost_delimiter",
+        "node": "ProductCatalogProductFeedsPost",
+        "field_or_param": "delimiter",
+        "values": [
+            "AUTODETECT",
+            "BAR",
+            "COMMA",
+            "SEMICOLON",
+            "TAB",
+            "TILDE"
+        ]
+    },
+    {
+        "name": "ProductCatalogProductFeedsPost_encoding",
+        "node": "ProductCatalogProductFeedsPost",
+        "field_or_param": "encoding",
+        "values": [
+            "AUTODETECT",
+            "LATIN1",
+            "UTF16BE",
+            "UTF16LE",
+            "UTF32BE",
+            "UTF32LE",
+            "UTF8"
+        ]
+    },
+    {
+        "name": "ProductCatalogProductFeedsPost_ingestion_source_type",
+        "node": "ProductCatalogProductFeedsPost",
+        "field_or_param": "ingestion_source_type",
+        "values": [
+            "PRIMARY_FEED",
+            "SUPPLEMENTARY_FEED"
+        ]
+    },
+    {
+        "name": "ProductCatalogProductFeedsPost_item_sub_type",
+        "node": "ProductCatalogProductFeedsPost",
+        "field_or_param": "item_sub_type",
+        "values": [
+            "APPLIANCES",
+            "BABY_FEEDING",
+            "BABY_TRANSPORT",
+            "BEAUTY",
+            "BEDDING",
+            "CAMERAS",
+            "CAMERAS_AND_PHOTOS",
+            "CELL_PHONES_AND_SMART_WATCHES",
+            "CLEANING_SUPPLIES",
+            "CLOTHING",
+            "CLOTHING_ACCESSORIES",
+            "CLO_OFFER",
+            "COMPUTERS_AND_TABLETS",
+            "COMPUTERS_LAPTOPS_AND_TABLETS",
+            "COMPUTER_COMPONENTS",
+            "DIAPERING_AND_POTTY_TRAINING",
+            "ELECTRONICS_ACCESSORIES",
+            "ELECTRONIC_ACCESSORIES_AND_CABLES",
+            "EMPTY",
+            "FURNITURE",
+            "HEALTH",
+            "HOME",
+            "HOME_GOODS",
+            "HOUSEHOLD_AND_CLEANING_SUPPLIES",
+            "JEWELRY",
+            "LARGE_APPLIANCES",
+            "LOCAL_SERVICE_BUSINESS_ITEM",
+            "LOCAL_SERVICE_BUSINESS_RESTAURANT",
+            "NURSERY",
+            "PRINTERS_AND_SCANNERS",
+            "PRINTERS_SCANNERS_AND_FAX_MACHINES",
+            "PRODUCT_DISCOUNT",
+            "PROJECTORS",
+            "SHOES",
+            "SHOES_AND_FOOTWEAR",
+            "SOFTWARE",
+            "TELEVISIONS_AND_MONITORS",
+            "TEST_CHILD_SUB_VERTICAL",
+            "TEST_GRAND_CHILD_SUB_VERTICAL",
+            "TEST_SUB_VERTICAL",
+            "TEST_SUB_VERTICAL_ALIAS",
+            "TEST_SUB_VERTICAL_DATA_OBJECT",
+            "THIRD_PARTY_ELECTRONICS",
+            "THIRD_PARTY_TOYS_AND_GAMES",
+            "TOYS",
+            "TOYS_AND_GAMES",
+            "TVS_AND_MONITORS",
+            "VEHICLE_MANUFACTURER",
+            "VIDEO_GAMES_AND_CONSOLES",
+            "VIDEO_GAME_CONSOLES_AND_VIDEO_GAMES",
+            "VIDEO_PROJECTORS",
+            "WATCHES"
+        ]
+    },
+    {
+        "name": "ProductCatalogProductFeedsPost_override_type",
+        "node": "ProductCatalogProductFeedsPost",
+        "field_or_param": "override_type",
+        "values": [
+            "BATCH_API_LANGUAGE_OR_COUNTRY",
+            "CATALOG_SEGMENT_CUSTOMIZE_DEFAULT",
+            "COUNTRY",
+            "LANGUAGE",
+            "LANGUAGE_AND_COUNTRY",
+            "LOCAL",
+            "SMART_PIXEL_LANGUAGE_OR_COUNTRY",
+            "VERSION"
+        ]
+    },
+    {
+        "name": "ProductCatalogProductFeedsPost_quoted_fields_mode",
+        "node": "ProductCatalogProductFeedsPost",
+        "field_or_param": "quoted_fields_mode",
+        "values": [
+            "AUTODETECT",
+            "OFF",
+            "ON"
+        ]
+    },
+    {
         "name": "ProductCatalogProductsPost_age_group",
         "node": "ProductCatalogProductsPost",
         "field_or_param": "age_group",
@@ -3739,6 +4534,217 @@
         ]
     },
     {
+        "name": "ProductFeedProductsGet_display_format_enum_param",
+        "node": "ProductFeedProductsGet",
+        "field_or_param": "display_format",
+        "values": [
+            "CAROUSEL_AD",
+            "SHOPS_PDP",
+            "SINGLE_AD"
+        ]
+    },
+    {
+        "name": "ProductFeedProductsGet_error_priority_enum_param",
+        "node": "ProductFeedProductsGet",
+        "field_or_param": "error_priority",
+        "values": [
+            "HIGH",
+            "LOW",
+            "MEDIUM"
+        ]
+    },
+    {
+        "name": "ProductFeedProductsGet_error_type_enum_param",
+        "node": "ProductFeedProductsGet",
+        "field_or_param": "error_type",
+        "values": [
+            "ADDRESS_BLOCKLISTED_IN_MARKET",
+            "AGGREGATED_LOCALIZATION_ISSUES",
+            "APP_HAS_NO_AEM_SETUP",
+            "AR_DELETED_DUE_TO_UPDATE",
+            "AR_POLICY_VIOLATED",
+            "AVAILABLE",
+            "BAD_QUALITY_IMAGE",
+            "BIG_CATALOG_WITH_ALL_ITEMS_IN_STOCK",
+            "BIZ_MSG_AI_AGENT_DISABLED_BY_USER",
+            "BIZ_MSG_GEN_AI_POLICY_VIOLATED",
+            "CANNOT_EDIT_SUBSCRIPTION_PRODUCTS",
+            "CATALOG_NOT_CONNECTED_TO_EVENT_SOURCE",
+            "CATALOG_NOT_ONBOARDED_FOR_AI_COMMERCE",
+            "CHECKOUT_DISABLED_BY_USER",
+            "COMMERCE_ACCOUNT_LEGAL_ADDRESS_INVALID",
+            "COMMERCE_ACCOUNT_NOT_LEGALLY_COMPLIANT",
+            "CRAWLED_AVAILABILITY_MISMATCH",
+            "DA_DISABLED_BY_USER",
+            "DA_POLICY_VIOLATION",
+            "DELETED_ITEM",
+            "DIGITAL_GOODS_NOT_AVAILABLE_FOR_CHECKOUT",
+            "DUPLICATE_IMAGES",
+            "DUPLICATE_TITLE_AND_DESCRIPTION",
+            "EMPTY_AVAILABILITY",
+            "EMPTY_BRAND",
+            "EMPTY_CONDITION",
+            "EMPTY_DESCRIPTION",
+            "EMPTY_IMAGE_URL",
+            "EMPTY_PRICE",
+            "EMPTY_PRODUCT_URL",
+            "EMPTY_SELLER_DESCRIPTION",
+            "EMPTY_TITLE",
+            "EXTERNAL_MERCHANT_ID_MISMATCH",
+            "GENERIC_INVALID_FIELD",
+            "GROUPS_DISABLED_BY_USER",
+            "HIDDEN_UNTIL_PRODUCT_LAUNCH",
+            "ILLEGAL_PRODUCT_CATEGORY",
+            "IMAGE_FETCH_FAILED",
+            "IMAGE_FETCH_FAILED_BAD_GATEWAY",
+            "IMAGE_FETCH_FAILED_FILE_SIZE_EXCEEDED",
+            "IMAGE_FETCH_FAILED_FORBIDDEN",
+            "IMAGE_FETCH_FAILED_LINK_BROKEN",
+            "IMAGE_FETCH_FAILED_TIMED_OUT",
+            "IMAGE_RESOLUTION_LOW",
+            "INACTIVE_MAGENTO_PRODUCT",
+            "INACTIVE_SALESFORCE_COMMERCE_CLOUD_PRODUCT",
+            "INACTIVE_SHOPIFY_PRODUCT",
+            "INACTIVE_WOOCOMMERCE_PRODUCT",
+            "INVALID_COMMERCE_TAX_CATEGORY",
+            "INVALID_COMSCORE_MARKET_CODES",
+            "INVALID_CONSOLIDATED_LOCALITY_INFORMATION",
+            "INVALID_CONTENT_ID",
+            "INVALID_DEALER_COMMUNICATION_PARAMETERS",
+            "INVALID_DMA_CODES",
+            "INVALID_FB_PAGE_ID",
+            "INVALID_IMAGES",
+            "INVALID_MONETIZER_RETURN_POLICY",
+            "INVALID_OFFER_DISCLAIMER_URL",
+            "INVALID_OFFER_END_DATE",
+            "INVALID_PRE_ORDER_PARAMS",
+            "INVALID_RANGE_FOR_AREA_SIZE",
+            "INVALID_RANGE_FOR_BUILT_UP_AREA_SIZE",
+            "INVALID_RANGE_FOR_NUM_OF_BATHS",
+            "INVALID_RANGE_FOR_NUM_OF_BEDS",
+            "INVALID_RANGE_FOR_NUM_OF_ROOMS",
+            "INVALID_RANGE_FOR_PARKING_SPACES",
+            "INVALID_SALE_PRICE",
+            "INVALID_SHELTER_PAGE_ID",
+            "INVALID_SHIPPING_PROFILE_PARAMS",
+            "INVALID_SUBSCRIPTION_DISABLE_PARAMS",
+            "INVALID_SUBSCRIPTION_ENABLE_PARAMS",
+            "INVALID_SUBSCRIPTION_PARAMS",
+            "INVALID_TAX_EXTENSION_STATE",
+            "INVALID_VEHICLE_STATE",
+            "INVALID_VIRTUAL_TOUR_URL_DOMAIN",
+            "INVENTORY_ZERO_AVAILABILITY_IN_STOCK",
+            "IN_ANOTHER_PRODUCT_LAUNCH",
+            "ITEM_GROUP_NOT_SPECIFIED",
+            "ITEM_INVALID_FEATURE",
+            "ITEM_NOT_APPROVED",
+            "ITEM_NOT_NATIVE_COMMERCE",
+            "ITEM_NOT_SHIPPABLE_FOR_SCA_SHOP",
+            "ITEM_OVERRIDE_EMPTY_AVAILABILITY",
+            "ITEM_OVERRIDE_EMPTY_PRICE",
+            "ITEM_OVERRIDE_NOT_VISIBLE",
+            "ITEM_PRICE_NOT_POSITIVE",
+            "ITEM_STALE_OUT_OF_STOCK",
+            "ITEM_SUPPRESSED_CHECKOUT_ERROR",
+            "ITEM_WITHOUT_VIDEO",
+            "MARKETPLACE_DISABLED_BY_USER",
+            "MARKETPLACE_NOT_SHIPPED_ITEM",
+            "MARKETPLACE_PARTNER_AUCTION_NO_BID_CLOSE_TIME",
+            "MARKETPLACE_PARTNER_CURRENCY_NOT_VALID",
+            "MARKETPLACE_PARTNER_DISTRIBUTION_DISABLED",
+            "MARKETPLACE_PARTNER_LISTING_COUNTRY_NOT_MATCH_CATALOG",
+            "MARKETPLACE_PARTNER_LISTING_LIMIT_EXCEEDED",
+            "MARKETPLACE_PARTNER_MISSING_LATLONG",
+            "MARKETPLACE_PARTNER_MISSING_SHIPPING_COST",
+            "MARKETPLACE_PARTNER_NOT_LOCAL_ITEM",
+            "MARKETPLACE_PARTNER_NOT_SHIPPED_ITEM",
+            "MARKETPLACE_PARTNER_POLICY_VIOLATION",
+            "MARKETPLACE_PARTNER_RULE_LISTING_LIMIT_EXCEEDED",
+            "MARKETPLACE_PARTNER_SELLER_BANNED",
+            "MARKETPLACE_PARTNER_SELLER_NOT_VALID",
+            "MARKETPLACE_SHIPPED_ITEM_EXPIRED",
+            "MARKETPLACE_SHIPPED_ITEM_NOT_AVAILABLE",
+            "MARKETPLACE_SHIPPED_SELLER_FEATURE_BANNED",
+            "MARKETPLACE_SHIPPED_SELLER_NOT_FULLY_ONBOARDED",
+            "MINI_SHOPS_DISABLED_BY_USER",
+            "MISSING_CHECKOUT",
+            "MISSING_CHECKOUT_CURRENCY",
+            "MISSING_COLOR",
+            "MISSING_COUNTRY_OVERRIDE_IN_SHIPPING_PROFILE",
+            "MISSING_EVENT",
+            "MISSING_INDIA_COMPLIANCE_FIELDS",
+            "MISSING_SHIPPING_PROFILE",
+            "MISSING_SIZE",
+            "MISSING_TAX_CATEGORY",
+            "NEGATIVE_COMMUNITY_FEEDBACK",
+            "NEGATIVE_PRICE",
+            "NOT_ENOUGH_IMAGES",
+            "NOT_ENOUGH_UNIQUE_PRODUCTS",
+            "NO_CONTENT_ID",
+            "OVERLAY_DISCLAIMER_EXCEEDED_MAX_LENGTH",
+            "PART_OF_PRODUCT_LAUNCH",
+            "PASSING_MULTIPLE_CONTENT_IDS",
+            "PRODUCT_DOMINANT_CURRENCY_MISMATCH",
+            "PRODUCT_EXPIRED",
+            "PRODUCT_ITEM_HIDDEN_FROM_ALL_SHOPS",
+            "PRODUCT_ITEM_INVALID_PARTNER_TOKENS",
+            "PRODUCT_ITEM_MISSING_LOCATION_INFORMATION",
+            "PRODUCT_ITEM_NOT_INCLUDED_IN_ANY_SHOP",
+            "PRODUCT_ITEM_NOT_VISIBLE",
+            "PRODUCT_NOT_APPROVED",
+            "PRODUCT_NOT_DOMINANT_CURRENCY",
+            "PRODUCT_OUT_OF_STOCK",
+            "PRODUCT_URL_EQUALS_DOMAIN",
+            "PROPERTY_PRICE_CURRENCY_NOT_SUPPORTED",
+            "PROPERTY_PRICE_TOO_HIGH",
+            "PROPERTY_PRICE_TOO_LOW",
+            "PROPERTY_UNIT_PRICE_CURRENCY_MISMATCH_ITEM_PRICE_CURRENCY",
+            "PROPERTY_VALUE_CONTAINS_HTML_TAGS",
+            "PROPERTY_VALUE_DESCRIPTION_CONTAINS_OFF_PLATFORM_LINK",
+            "PROPERTY_VALUE_FORMAT",
+            "PROPERTY_VALUE_MISSING",
+            "PROPERTY_VALUE_MISSING_WARNING",
+            "PROPERTY_VALUE_NON_POSITIVE",
+            "PROPERTY_VALUE_STRING_EXCEEDS_LENGTH",
+            "PROPERTY_VALUE_STRING_TOO_SHORT",
+            "PROPERTY_VALUE_UPPERCASE",
+            "PROPERTY_VALUE_UPPERCASE_WARNING",
+            "PURCHASE_RATE_BELOW_ADDTOCART",
+            "PURCHASE_RATE_BELOW_VIEWCONTENT",
+            "QUALITY_DUPLICATED_DESCRIPTION",
+            "QUALITY_ITEM_LINK_BROKEN",
+            "QUALITY_ITEM_LINK_REDIRECTING",
+            "RETAILER_ID_NOT_PROVIDED",
+            "RETAILER_ID_USED_BY_GROUP",
+            "SHOPIFY_INVALID_RETAILER_ID",
+            "SHOPIFY_ITEM_MISSING_DELIVERY_PROFILE_ZERO_INVENTORY",
+            "SHOPIFY_ITEM_MISSING_SHIPPING_PROFILE",
+            "SHOPS_POLICY_VIOLATION",
+            "SUBSCRIPTION_INFO_NOT_ENABLED_FOR_FEED",
+            "TAX_CATEGORY_NOT_SUPPORTED_IN_UK",
+            "TOP_PRODUCT_WITHOUT_VIDEOS",
+            "UNIQUE_PRODUCT_IDENTIFIER_MISSING",
+            "UNMATCHED_EVENTS",
+            "UNSUPPORTED_PRODUCT_CATEGORY",
+            "VARIANT_ATTRIBUTE_ISSUE",
+            "VERSION_OVERRIDE_NOT_EXISTS",
+            "VIDEO_FETCH_FAILED",
+            "VIDEO_FETCH_FAILED_BAD_GATEWAY",
+            "VIDEO_FETCH_FAILED_FILE_SIZE_EXCEEDED",
+            "VIDEO_FETCH_FAILED_FORBIDDEN",
+            "VIDEO_FETCH_FAILED_LINK_BROKEN",
+            "VIDEO_FETCH_FAILED_RATE_LIMITED",
+            "VIDEO_FETCH_FAILED_SERVER_ERROR",
+            "VIDEO_FETCH_FAILED_TIMED_OUT",
+            "VIDEO_ISSUE_GENERIC",
+            "VIDEO_NOT_DOWNLOADABLE",
+            "WHATSAPP_DISABLED_BY_USER",
+            "WHATSAPP_MARKETING_MESSAGE_DISABLED_BY_USER",
+            "WHATSAPP_MARKETING_MESSAGE_POLICY_VIOLATION",
+            "WHATSAPP_POLICY_VIOLATION"
+        ]
+    },
+    {
         "name": "ProductFeedProfessionalServicesGet_display_format_enum_param",
         "node": "ProductFeedProfessionalServicesGet",
         "field_or_param": "display_format",
@@ -3758,6 +4764,25 @@
             "MAPPING_RULE",
             "REGEX_REPLACE_RULE",
             "VALUE_MAPPING_RULE"
+        ]
+    },
+    {
+        "name": "ProductFeedScheduleGet_feed_schedule_mode",
+        "node": "ProductFeedScheduleGet",
+        "field_or_param": "feed_schedule_mode",
+        "values": [
+            "AUTOMATIC",
+            "FIXED"
+        ]
+    },
+    {
+        "name": "ProductFeedScheduleGet_status",
+        "node": "ProductFeedScheduleGet",
+        "field_or_param": "status",
+        "values": [
+            "ACTIVE",
+            "SUSPENDED",
+            "WAITING_ON_OTHER_FEED"
         ]
     },
     {
@@ -3813,6 +4838,19 @@
             "Reupload Last File",
             "Server Fetch",
             "User initiated server fetch"
+        ]
+    },
+    {
+        "name": "ProductFeedUploadsPost_input_method",
+        "node": "ProductFeedUploadsPost",
+        "field_or_param": "input_method",
+        "values": [
+            "GOOGLE_SHEETS_FETCH",
+            "MANUAL_UPLOAD",
+            "REUPLOAD_EXISTING",
+            "REUPLOAD_LAST_FILE",
+            "SERVER_FETCH",
+            "USER_INITIATED_SERVER_FETCH"
         ]
     },
     {
@@ -4122,6 +5160,7 @@
         "field_or_param": "features",
         "values": [
             "AGENTIC_CHECKOUT",
+            "AGENTIC_CHECKOUT_PRE_CLICK",
             "AMAZON_BUY_WITH_PRIME",
             "AUGMENTED_REALITY",
             "CHECKOUT",
@@ -4191,6 +5230,7 @@
             "BIZ_MSG_GEN_AI_POLICY_VIOLATED",
             "CANNOT_EDIT_SUBSCRIPTION_PRODUCTS",
             "CATALOG_NOT_CONNECTED_TO_EVENT_SOURCE",
+            "CATALOG_NOT_ONBOARDED_FOR_AI_COMMERCE",
             "CHECKOUT_DISABLED_BY_USER",
             "COMMERCE_ACCOUNT_LEGAL_ADDRESS_INVALID",
             "COMMERCE_ACCOUNT_NOT_LEGALLY_COMPLIANT",
@@ -4256,12 +5296,16 @@
             "INVENTORY_ZERO_AVAILABILITY_IN_STOCK",
             "IN_ANOTHER_PRODUCT_LAUNCH",
             "ITEM_GROUP_NOT_SPECIFIED",
+            "ITEM_INVALID_FEATURE",
+            "ITEM_NOT_APPROVED",
+            "ITEM_NOT_NATIVE_COMMERCE",
             "ITEM_NOT_SHIPPABLE_FOR_SCA_SHOP",
             "ITEM_OVERRIDE_EMPTY_AVAILABILITY",
             "ITEM_OVERRIDE_EMPTY_PRICE",
             "ITEM_OVERRIDE_NOT_VISIBLE",
             "ITEM_PRICE_NOT_POSITIVE",
             "ITEM_STALE_OUT_OF_STOCK",
+            "ITEM_SUPPRESSED_CHECKOUT_ERROR",
             "ITEM_WITHOUT_VIDEO",
             "MARKETPLACE_DISABLED_BY_USER",
             "MARKETPLACE_NOT_SHIPPED_ITEM",
@@ -4304,6 +5348,7 @@
             "PRODUCT_EXPIRED",
             "PRODUCT_ITEM_HIDDEN_FROM_ALL_SHOPS",
             "PRODUCT_ITEM_INVALID_PARTNER_TOKENS",
+            "PRODUCT_ITEM_MISSING_LOCATION_INFORMATION",
             "PRODUCT_ITEM_NOT_INCLUDED_IN_ANY_SHOP",
             "PRODUCT_ITEM_NOT_VISIBLE",
             "PRODUCT_NOT_APPROVED",
@@ -4342,6 +5387,7 @@
             "UNMATCHED_EVENTS",
             "UNSUPPORTED_PRODUCT_CATEGORY",
             "VARIANT_ATTRIBUTE_ISSUE",
+            "VERSION_OVERRIDE_NOT_EXISTS",
             "VIDEO_FETCH_FAILED",
             "VIDEO_FETCH_FAILED_BAD_GATEWAY",
             "VIDEO_FETCH_FAILED_FILE_SIZE_EXCEEDED",
@@ -4928,7 +5974,9 @@
             "RULES_MANAGEMENT_PAGE_RULE_GROUP",
             "RULES_MANAGEMENT_PAGE_RULE_NAME",
             "RULES_MANAGEMENT_PAGE_TOP_NAV",
+            "RULES_RECOMMENDED_RULES_CARD",
             "RULES_RECOMMENDED_RULES_DIALOG",
+            "RULES_RECOMMENDED_RULES_DIALOG_CUSTOM_RULE",
             "RULES_VIEW_ACTIVE_RULES_DIALOG",
             "RULE_CREATION_SUCCESS_DIALOG",
             "RULE_SYD_REDIRECT",
@@ -4995,6 +6043,7 @@
             "ACCOUNT_SPEND_LIMIT",
             "ACCOUNT_SPEND_LIMIT_DUPLICATION",
             "ACO_TOGGLE",
+            "ADD_10_OR_MORE_CREATIVES_TO_CAMPAIGN",
             "ADD_FUNDS_TO_RUN_CAMPAIGN",
             "ADOPT_3P_MTA_CLICKS_VIEWS_MEASUREMENT",
             "ADOPT_CATALOG_TO_RUN_PRODUCT_CENTRIC_ADS",
@@ -5107,6 +6156,7 @@
             "BLENDED_ADS_DUPLICATION",
             "BLENDED_ADS_FOR_SHOPS_ADS_DUPLICATION",
             "BPBAA_WITH_CAPI_UPSELL",
+            "BRAND_ADVERTISER_INCREASE_CA_OR_LAL_SPEND",
             "BRAND_ADVERTISER_VIDEO_FORMAT_ADS",
             "BROADGEO_AM_UPSELL_GUIDANCE",
             "BROAD_TARGETING",
@@ -5145,6 +6195,7 @@
             "CONVERSION_LEADS_OPTIMIZATION_INTEGRATED",
             "CONVERSION_LEADS_OPTIMIZATION_V2",
             "CONVERSION_LEAD_ADS",
+            "CONVERSION_VOLUME_TO_REV_VALUE_OPT_V2",
             "CONVERT_APP_WEB_FALLBACK_TO_A_DESTINATION",
             "CONVERT_CTX_REPLIES_TO_CTX_LEADS",
             "CONVERT_CTX_REPLIES_TO_CTX_PURCHASE",
@@ -5176,6 +6227,7 @@
             "CTM_LEADS_OPTIMIZATION_UPSELL",
             "CTM_LO_ODAX_PHASE_2",
             "CTM_PO_ODAX_PHASE_2",
+            "CTM_PURCHASE_CA_EXCLUSION",
             "CTM_VO_ODAX_PHASE_2",
             "CTX_BUDGET_OPTIMIZATION",
             "CTX_CREATION_PACKAGE",
@@ -5189,6 +6241,7 @@
             "CTX_HVS",
             "CTX_HVS_V2",
             "CTX_MULTI_MESSAGE_DESTINATION",
+            "CTX_OUTCOME_FORECASTER",
             "CTX_PRECREATE",
             "CTX_PRODUCT_EXTENSION_DUPLICATION",
             "CTX_SABR_CBO",
@@ -5209,6 +6262,7 @@
             "DELIVERY_ERROR_V2",
             "DELIVERY_WARNING",
             "DUPLICATE_HIGH_PERFORMING_CAMPAIGN",
+            "DUPLICATE_LWI_CAMPAIGN",
             "DYNAMIC_ADVANTAGE_CAMPAIGN_BUDGET",
             "ECOSYSTEM_BID_REDUCE_L1_CARDINALITY",
             "EMAIL_CAPTURE_UPSELL_GUIDANCE",
@@ -5703,7 +6757,9 @@
             "21",
             "22",
             "24",
-            "25"
+            "25",
+            "26",
+            "27"
         ]
     },
     {
@@ -5836,6 +6892,7 @@
             "LIVE_CREATIVE_KIT_VIDEO",
             "LIVE_PHOTO",
             "LOOK_NOW_DEPRECATED",
+            "MAGIC_CLIP_DEVICE_UPLOAD",
             "MARKETPLACE_LISTING_VIDEO",
             "MARKETPLACE_PRE_RECORDED_VIDEO",
             "MOMENTS_VIDEO",
@@ -5883,6 +6940,7 @@
             "SLIDESHOW_ANIMOTO",
             "SLIDESHOW_SHAKR",
             "SLIDESHOW_VARIATION_VIDEO",
+            "SOIL_VIDEO",
             "SOUND_PLATFORM_STREAM",
             "SRT_ATTACHMENT",
             "STORIES_VIDEO",
@@ -6785,7 +7843,7 @@
     },
     {
         "name": "adaccountinsights_action_attribution_windows_enum_param",
-        "node": "AdReportRun",
+        "node": "AdsInsights",
         "field_or_param": "action_attribution_windows",
         "values": [
             "1d_click",
@@ -6818,7 +7876,7 @@
     },
     {
         "name": "adaccountinsights_action_breakdowns_enum_param",
-        "node": "AdReportRun",
+        "node": "AdsInsights",
         "field_or_param": "action_breakdowns",
         "values": [
             "action_canvas_component_name",
@@ -6841,7 +7899,7 @@
     },
     {
         "name": "adaccountinsights_action_report_time_enum_param",
-        "node": "AdReportRun",
+        "node": "AdsInsights",
         "field_or_param": "action_report_time",
         "values": [
             "conversion",
@@ -6852,7 +7910,7 @@
     },
     {
         "name": "adaccountinsights_breakdowns_enum_param",
-        "node": "AdReportRun",
+        "node": "AdsInsights",
         "field_or_param": "breakdowns",
         "values": [
             "ad_extension_domain",
@@ -6872,6 +7930,7 @@
             "country",
             "creative_automation_asset_id",
             "creative_fingerprint_details",
+            "creative_format_classification",
             "creative_media_type_breakdown",
             "creative_relaxation_asset_type",
             "crm_advertiser_l12_territory_ids",
@@ -6908,6 +7967,7 @@
             "media_creator",
             "media_destination_url",
             "media_format",
+            "media_id",
             "media_origin_url",
             "media_text_content",
             "media_type",
@@ -6935,6 +7995,7 @@
             "rta_ugc_topic",
             "rule_set_id",
             "rule_set_name",
+            "signal_source",
             "signal_source_bucket",
             "skan_campaign_id",
             "skan_conversion_id",
@@ -6954,7 +8015,7 @@
     },
     {
         "name": "adaccountinsights_date_preset_enum_param",
-        "node": "AdReportRun",
+        "node": "AdsInsights",
         "field_or_param": "date_preset",
         "values": [
             "data_maximum",
@@ -6981,7 +8042,7 @@
     },
     {
         "name": "adaccountinsights_level_enum_param",
-        "node": "AdReportRun",
+        "node": "AdsInsights",
         "field_or_param": "level",
         "values": [
             "account",
@@ -6992,7 +8053,7 @@
     },
     {
         "name": "adaccountinsights_summary_action_breakdowns_enum_param",
-        "node": "AdReportRun",
+        "node": "AdsInsights",
         "field_or_param": "summary_action_breakdowns",
         "values": [
             "action_canvas_component_name",
@@ -7283,6 +8344,7 @@
             "ACCOUNT_SPEND_LIMIT",
             "ACCOUNT_SPEND_LIMIT_DUPLICATION",
             "ACO_TOGGLE",
+            "ADD_10_OR_MORE_CREATIVES_TO_CAMPAIGN",
             "ADD_FUNDS_TO_RUN_CAMPAIGN",
             "ADOPT_3P_MTA_CLICKS_VIEWS_MEASUREMENT",
             "ADOPT_CATALOG_TO_RUN_PRODUCT_CENTRIC_ADS",
@@ -7395,6 +8457,7 @@
             "BLENDED_ADS_DUPLICATION",
             "BLENDED_ADS_FOR_SHOPS_ADS_DUPLICATION",
             "BPBAA_WITH_CAPI_UPSELL",
+            "BRAND_ADVERTISER_INCREASE_CA_OR_LAL_SPEND",
             "BRAND_ADVERTISER_VIDEO_FORMAT_ADS",
             "BROADGEO_AM_UPSELL_GUIDANCE",
             "BROAD_TARGETING",
@@ -7433,6 +8496,7 @@
             "CONVERSION_LEADS_OPTIMIZATION_INTEGRATED",
             "CONVERSION_LEADS_OPTIMIZATION_V2",
             "CONVERSION_LEAD_ADS",
+            "CONVERSION_VOLUME_TO_REV_VALUE_OPT_V2",
             "CONVERT_APP_WEB_FALLBACK_TO_A_DESTINATION",
             "CONVERT_CTX_REPLIES_TO_CTX_LEADS",
             "CONVERT_CTX_REPLIES_TO_CTX_PURCHASE",
@@ -7464,6 +8528,7 @@
             "CTM_LEADS_OPTIMIZATION_UPSELL",
             "CTM_LO_ODAX_PHASE_2",
             "CTM_PO_ODAX_PHASE_2",
+            "CTM_PURCHASE_CA_EXCLUSION",
             "CTM_VO_ODAX_PHASE_2",
             "CTX_BUDGET_OPTIMIZATION",
             "CTX_CREATION_PACKAGE",
@@ -7477,6 +8542,7 @@
             "CTX_HVS",
             "CTX_HVS_V2",
             "CTX_MULTI_MESSAGE_DESTINATION",
+            "CTX_OUTCOME_FORECASTER",
             "CTX_PRECREATE",
             "CTX_PRODUCT_EXTENSION_DUPLICATION",
             "CTX_SABR_CBO",
@@ -7497,6 +8563,7 @@
             "DELIVERY_ERROR_V2",
             "DELIVERY_WARNING",
             "DUPLICATE_HIGH_PERFORMING_CAMPAIGN",
+            "DUPLICATE_LWI_CAMPAIGN",
             "DYNAMIC_ADVANTAGE_CAMPAIGN_BUDGET",
             "ECOSYSTEM_BID_REDUCE_L1_CARDINALITY",
             "EMAIL_CAPTURE_UPSELL_GUIDANCE",
@@ -9308,6 +10375,18 @@
         ]
     },
     {
+        "name": "adaccountvalue_rule_set_origin_enum_param",
+        "node": "AdsValueAdjustmentRuleCollection",
+        "field_or_param": "origin",
+        "values": [
+            "ADVANTAGE_AUDIENCE_GUIDANCE_SUGGESTED",
+            "ADVERTISER_CREATED",
+            "PLACEMENT_GUIDANCE_SUGGESTED",
+            "PLACEMENT_PERSONALIZED_SUGGESTED",
+            "TRANSLATED_FROM_BID_MULTIPLIERS"
+        ]
+    },
+    {
         "name": "adaccountvalue_rule_set_product_type_enum_param",
         "node": "AdsValueAdjustmentRuleCollection",
         "field_or_param": "product_type",
@@ -9597,7 +10676,9 @@
             "21",
             "22",
             "24",
-            "25"
+            "25",
+            "26",
+            "27"
         ]
     },
     {
@@ -10420,6 +11501,7 @@
             "country",
             "creative_automation_asset_id",
             "creative_fingerprint_details",
+            "creative_format_classification",
             "creative_media_type_breakdown",
             "creative_relaxation_asset_type",
             "crm_advertiser_l12_territory_ids",
@@ -10456,6 +11538,7 @@
             "media_creator",
             "media_destination_url",
             "media_format",
+            "media_id",
             "media_origin_url",
             "media_text_content",
             "media_type",
@@ -10483,6 +11566,7 @@
             "rta_ugc_topic",
             "rule_set_id",
             "rule_set_name",
+            "signal_source",
             "signal_source_bucket",
             "skan_campaign_id",
             "skan_conversion_id",
@@ -10650,6 +11734,7 @@
             "country",
             "creative_automation_asset_id",
             "creative_fingerprint_details",
+            "creative_format_classification",
             "creative_media_type_breakdown",
             "creative_relaxation_asset_type",
             "crm_advertiser_l12_territory_ids",
@@ -10686,6 +11771,7 @@
             "media_creator",
             "media_destination_url",
             "media_format",
+            "media_id",
             "media_origin_url",
             "media_text_content",
             "media_type",
@@ -10713,6 +11799,7 @@
             "rta_ugc_topic",
             "rule_set_id",
             "rule_set_name",
+            "signal_source",
             "signal_source_bucket",
             "skan_campaign_id",
             "skan_conversion_id",
@@ -11064,7 +12151,7 @@
     },
     {
         "name": "adgroupinsights_action_attribution_windows_enum_param",
-        "node": "AdReportRun",
+        "node": "AdsInsights",
         "field_or_param": "action_attribution_windows",
         "values": [
             "1d_click",
@@ -11097,7 +12184,7 @@
     },
     {
         "name": "adgroupinsights_action_breakdowns_enum_param",
-        "node": "AdReportRun",
+        "node": "AdsInsights",
         "field_or_param": "action_breakdowns",
         "values": [
             "action_canvas_component_name",
@@ -11120,7 +12207,7 @@
     },
     {
         "name": "adgroupinsights_action_report_time_enum_param",
-        "node": "AdReportRun",
+        "node": "AdsInsights",
         "field_or_param": "action_report_time",
         "values": [
             "conversion",
@@ -11131,7 +12218,7 @@
     },
     {
         "name": "adgroupinsights_breakdowns_enum_param",
-        "node": "AdReportRun",
+        "node": "AdsInsights",
         "field_or_param": "breakdowns",
         "values": [
             "ad_extension_domain",
@@ -11151,6 +12238,7 @@
             "country",
             "creative_automation_asset_id",
             "creative_fingerprint_details",
+            "creative_format_classification",
             "creative_media_type_breakdown",
             "creative_relaxation_asset_type",
             "crm_advertiser_l12_territory_ids",
@@ -11187,6 +12275,7 @@
             "media_creator",
             "media_destination_url",
             "media_format",
+            "media_id",
             "media_origin_url",
             "media_text_content",
             "media_type",
@@ -11214,6 +12303,7 @@
             "rta_ugc_topic",
             "rule_set_id",
             "rule_set_name",
+            "signal_source",
             "signal_source_bucket",
             "skan_campaign_id",
             "skan_conversion_id",
@@ -11233,7 +12323,7 @@
     },
     {
         "name": "adgroupinsights_date_preset_enum_param",
-        "node": "AdReportRun",
+        "node": "AdsInsights",
         "field_or_param": "date_preset",
         "values": [
             "data_maximum",
@@ -11260,7 +12350,7 @@
     },
     {
         "name": "adgroupinsights_level_enum_param",
-        "node": "AdReportRun",
+        "node": "AdsInsights",
         "field_or_param": "level",
         "values": [
             "account",
@@ -11271,7 +12361,7 @@
     },
     {
         "name": "adgroupinsights_summary_action_breakdowns_enum_param",
-        "node": "AdReportRun",
+        "node": "AdsInsights",
         "field_or_param": "summary_action_breakdowns",
         "values": [
             "action_canvas_component_name",
@@ -11728,7 +12818,7 @@
         ]
     },
     {
-        "name": "adsvalueadjustmentrulecollectiondelete_rule_set_status_enum_param",
+        "name": "adsvalueadjustmentrulecollectiondeleteruleset_status_enum_param",
         "node": "AdsValueAdjustmentRuleCollection",
         "field_or_param": "status",
         "values": [
@@ -12310,11 +13400,9 @@
         "values": [
             "ADVERTISE",
             "ANALYZE",
-            "CASHIER_ROLE",
             "CREATE_CONTENT",
             "GLOBAL_STRUCTURE_MANAGEMENT",
             "MANAGE",
-            "MANAGE_JOBS",
             "MANAGE_LEADS",
             "MESSAGING",
             "MODERATE",
@@ -12422,11 +13510,9 @@
         "values": [
             "ADVERTISE",
             "ANALYZE",
-            "CASHIER_ROLE",
             "CREATE_CONTENT",
             "GLOBAL_STRUCTURE_MANAGEMENT",
             "MANAGE",
-            "MANAGE_JOBS",
             "MANAGE_LEADS",
             "MESSAGING",
             "MODERATE",
@@ -12468,6 +13554,7 @@
             "EXTERNAL",
             "INTERNAL",
             "SELF_SERVE",
+            "SELF_SERVE_ADS_MANAGER",
             "SELF_SERVE_CONTACT_FORM"
         ]
     },
@@ -13902,11 +14989,9 @@
         "values": [
             "ADVERTISE",
             "ANALYZE",
-            "CASHIER_ROLE",
             "CREATE_CONTENT",
             "GLOBAL_STRUCTURE_MANAGEMENT",
             "MANAGE",
-            "MANAGE_JOBS",
             "MANAGE_LEADS",
             "MESSAGING",
             "MODERATE",
@@ -14878,6 +15963,7 @@
             "LIVE_CREATIVE_KIT_VIDEO",
             "LIVE_PHOTO",
             "LOOK_NOW_DEPRECATED",
+            "MAGIC_CLIP_DEVICE_UPLOAD",
             "MARKETPLACE_LISTING_VIDEO",
             "MARKETPLACE_PRE_RECORDED_VIDEO",
             "MOMENTS_VIDEO",
@@ -14925,6 +16011,7 @@
             "SLIDESHOW_ANIMOTO",
             "SLIDESHOW_SHAKR",
             "SLIDESHOW_VARIATION_VIDEO",
+            "SOIL_VIDEO",
             "SOUND_PLATFORM_STREAM",
             "SRT_ATTACHMENT",
             "STORIES_VIDEO",
@@ -15747,6 +16834,7 @@
             "LIVE_CREATIVE_KIT_VIDEO",
             "LIVE_PHOTO",
             "LOOK_NOW_DEPRECATED",
+            "MAGIC_CLIP_DEVICE_UPLOAD",
             "MARKETPLACE_LISTING_VIDEO",
             "MARKETPLACE_PRE_RECORDED_VIDEO",
             "MOMENTS_VIDEO",
@@ -15794,6 +16882,7 @@
             "SLIDESHOW_ANIMOTO",
             "SLIDESHOW_SHAKR",
             "SLIDESHOW_VARIATION_VIDEO",
+            "SOIL_VIDEO",
             "SOUND_PLATFORM_STREAM",
             "SRT_ATTACHMENT",
             "STORIES_VIDEO",
@@ -16050,98 +17139,6 @@
         "values": [
             "EVENT_END",
             "EVENT_START"
-        ]
-    },
-    {
-        "name": "iguserexportforcambranded_content_media_platform_enum_param",
-        "node": "IGMediaExportForCAM",
-        "field_or_param": "platform",
-        "values": [
-            "ANY",
-            "BOTH",
-            "FACEBOOK",
-            "INSTAGRAM"
-        ]
-    },
-    {
-        "name": "iguserexportforcaminsights_breakdown_enum_param",
-        "node": "IGUserExportForCAMInsightsResult",
-        "field_or_param": "breakdown",
-        "values": [
-            "AGE",
-            "FOLLOW_TYPE",
-            "GENDER",
-            "MEDIA_TYPE",
-            "TOP_CITIES",
-            "TOP_COUNTRIES"
-        ]
-    },
-    {
-        "name": "iguserexportforcaminsights_metrics_enum_param",
-        "node": "IGUserExportForCAMInsightsResult",
-        "field_or_param": "metrics",
-        "values": [
-            "ACCOUNT_INTERACTIONS",
-            "CREATOR_ENGAGED_ACCOUNTS",
-            "CREATOR_REACH",
-            "REELS_HOOK_RATE",
-            "REELS_INTERACTION_RATE",
-            "TOTAL_FOLLOWERS",
-            "TOTAL_VIEWS"
-        ]
-    },
-    {
-        "name": "iguserexportforcaminsights_period_enum_param",
-        "node": "IGUserExportForCAMInsightsResult",
-        "field_or_param": "period",
-        "values": [
-            "DAY",
-            "OVERALL"
-        ]
-    },
-    {
-        "name": "iguserexportforcaminsights_platform_enum_param",
-        "node": "IGUserExportForCAMInsightsResult",
-        "field_or_param": "platform",
-        "values": [
-            "ANY",
-            "BOTH",
-            "FACEBOOK",
-            "INSTAGRAM"
-        ]
-    },
-    {
-        "name": "iguserexportforcaminsights_time_range_enum_param",
-        "node": "IGUserExportForCAMInsightsResult",
-        "field_or_param": "time_range",
-        "values": [
-            "LAST_14_DAYS",
-            "LAST_90_DAYS",
-            "LIFETIME",
-            "THIS_MONTH",
-            "THIS_WEEK"
-        ]
-    },
-    {
-        "name": "iguserexportforcampast_partnership_ads_media_platform_enum_param",
-        "node": "IGMediaExportForCAM",
-        "field_or_param": "platform",
-        "values": [
-            "ANY",
-            "BOTH",
-            "FACEBOOK",
-            "INSTAGRAM"
-        ]
-    },
-    {
-        "name": "iguserexportforcamrecent_media_platform_enum_param",
-        "node": "IGMediaExportForCAM",
-        "field_or_param": "platform",
-        "values": [
-            "ANY",
-            "BOTH",
-            "FACEBOOK",
-            "INSTAGRAM"
         ]
     },
     {
@@ -16906,11 +17903,9 @@
         "values": [
             "ADVERTISE",
             "ANALYZE",
-            "CASHIER_ROLE",
             "CREATE_CONTENT",
             "GLOBAL_STRUCTURE_MANAGEMENT",
             "MANAGE",
-            "MANAGE_JOBS",
             "MANAGE_LEADS",
             "MESSAGING",
             "MODERATE",
@@ -16942,11 +17937,9 @@
         "values": [
             "ADVERTISE",
             "ANALYZE",
-            "CASHIER_ROLE",
             "CREATE_CONTENT",
             "GLOBAL_STRUCTURE_MANAGEMENT",
             "MANAGE",
-            "MANAGE_JOBS",
             "MANAGE_LEADS",
             "MESSAGING",
             "MODERATE",
@@ -17242,7 +18235,7 @@
     },
     {
         "name": "pagefeed_backdated_time_granularity_enum_param",
-        "node": "Page",
+        "node": "Object",
         "field_or_param": "backdated_time_granularity",
         "values": [
             "day",
@@ -17255,7 +18248,7 @@
     },
     {
         "name": "pagefeed_formatting_enum_param",
-        "node": "Page",
+        "node": "Object",
         "field_or_param": "formatting",
         "values": [
             "MARKDOWN",
@@ -17264,7 +18257,7 @@
     },
     {
         "name": "pagefeed_place_attachment_setting_enum_param",
-        "node": "Page",
+        "node": "Object",
         "field_or_param": "place_attachment_setting",
         "values": [
             "1",
@@ -17273,7 +18266,7 @@
     },
     {
         "name": "pagefeed_post_surfaces_blacklist_enum_param",
-        "node": "Page",
+        "node": "Object",
         "field_or_param": "post_surfaces_blacklist",
         "values": [
             "1",
@@ -17285,7 +18278,7 @@
     },
     {
         "name": "pagefeed_posting_to_redspace_enum_param",
-        "node": "Page",
+        "node": "Object",
         "field_or_param": "posting_to_redspace",
         "values": [
             "disabled",
@@ -17294,7 +18287,7 @@
     },
     {
         "name": "pagefeed_target_surface_enum_param",
-        "node": "Page",
+        "node": "Object",
         "field_or_param": "target_surface",
         "values": [
             "STORY",
@@ -17303,7 +18296,7 @@
     },
     {
         "name": "pagefeed_unpublished_content_type_enum_param",
-        "node": "Page",
+        "node": "Object",
         "field_or_param": "unpublished_content_type",
         "values": [
             "ADS_POST",
@@ -17905,7 +18898,7 @@
     },
     {
         "name": "pagemoderate_conversations_actions_enum_param",
-        "node": "Page",
+        "node": "Object",
         "field_or_param": "actions",
         "values": [
             "BAN_USER",
@@ -18462,6 +19455,7 @@
             "LIVE_CREATIVE_KIT_VIDEO",
             "LIVE_PHOTO",
             "LOOK_NOW_DEPRECATED",
+            "MAGIC_CLIP_DEVICE_UPLOAD",
             "MARKETPLACE_LISTING_VIDEO",
             "MARKETPLACE_PRE_RECORDED_VIDEO",
             "MOMENTS_VIDEO",
@@ -18509,6 +19503,7 @@
             "SLIDESHOW_ANIMOTO",
             "SLIDESHOW_SHAKR",
             "SLIDESHOW_VARIATION_VIDEO",
+            "SOIL_VIDEO",
             "SOUND_PLATFORM_STREAM",
             "SRT_ATTACHMENT",
             "STORIES_VIDEO",
@@ -18912,6 +19907,66 @@
         "values": [
             "LOCAL_DA_CATALOG",
             "LOCAL_PRODUCTS"
+        ]
+    },
+    {
+        "name": "productcatalog_checkout_country",
+        "node": "ProductCatalog",
+        "field_or_param": "checkout_country",
+        "values": [
+            "AR",
+            "AT",
+            "AU",
+            "BE",
+            "BG",
+            "BR",
+            "CA",
+            "CH",
+            "CL",
+            "CO",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EC",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GB",
+            "GR",
+            "HK",
+            "HR",
+            "HU",
+            "IE",
+            "IN",
+            "IT",
+            "JP",
+            "KR",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "MX",
+            "NL",
+            "NO",
+            "PE",
+            "PH",
+            "PK",
+            "PL",
+            "PR",
+            "PT",
+            "RO",
+            "SE",
+            "SG",
+            "SI",
+            "SK",
+            "TH",
+            "TR",
+            "TW",
+            "US",
+            "UY",
+            "VN"
         ]
     },
     {
@@ -19575,6 +20630,7 @@
             "BIZ_MSG_GEN_AI_POLICY_VIOLATED",
             "CANNOT_EDIT_SUBSCRIPTION_PRODUCTS",
             "CATALOG_NOT_CONNECTED_TO_EVENT_SOURCE",
+            "CATALOG_NOT_ONBOARDED_FOR_AI_COMMERCE",
             "CHECKOUT_DISABLED_BY_USER",
             "COMMERCE_ACCOUNT_LEGAL_ADDRESS_INVALID",
             "COMMERCE_ACCOUNT_NOT_LEGALLY_COMPLIANT",
@@ -19640,12 +20696,16 @@
             "INVENTORY_ZERO_AVAILABILITY_IN_STOCK",
             "IN_ANOTHER_PRODUCT_LAUNCH",
             "ITEM_GROUP_NOT_SPECIFIED",
+            "ITEM_INVALID_FEATURE",
+            "ITEM_NOT_APPROVED",
+            "ITEM_NOT_NATIVE_COMMERCE",
             "ITEM_NOT_SHIPPABLE_FOR_SCA_SHOP",
             "ITEM_OVERRIDE_EMPTY_AVAILABILITY",
             "ITEM_OVERRIDE_EMPTY_PRICE",
             "ITEM_OVERRIDE_NOT_VISIBLE",
             "ITEM_PRICE_NOT_POSITIVE",
             "ITEM_STALE_OUT_OF_STOCK",
+            "ITEM_SUPPRESSED_CHECKOUT_ERROR",
             "ITEM_WITHOUT_VIDEO",
             "MARKETPLACE_DISABLED_BY_USER",
             "MARKETPLACE_NOT_SHIPPED_ITEM",
@@ -19688,6 +20748,7 @@
             "PRODUCT_EXPIRED",
             "PRODUCT_ITEM_HIDDEN_FROM_ALL_SHOPS",
             "PRODUCT_ITEM_INVALID_PARTNER_TOKENS",
+            "PRODUCT_ITEM_MISSING_LOCATION_INFORMATION",
             "PRODUCT_ITEM_NOT_INCLUDED_IN_ANY_SHOP",
             "PRODUCT_ITEM_NOT_VISIBLE",
             "PRODUCT_NOT_APPROVED",
@@ -19726,6 +20787,7 @@
             "UNMATCHED_EVENTS",
             "UNSUPPORTED_PRODUCT_CATEGORY",
             "VARIANT_ATTRIBUTE_ISSUE",
+            "VERSION_OVERRIDE_NOT_EXISTS",
             "VIDEO_FETCH_FAILED",
             "VIDEO_FETCH_FAILED_BAD_GATEWAY",
             "VIDEO_FETCH_FAILED_FILE_SIZE_EXCEEDED",
@@ -20224,6 +21286,7 @@
             "BIZ_MSG_GEN_AI_POLICY_VIOLATED",
             "CANNOT_EDIT_SUBSCRIPTION_PRODUCTS",
             "CATALOG_NOT_CONNECTED_TO_EVENT_SOURCE",
+            "CATALOG_NOT_ONBOARDED_FOR_AI_COMMERCE",
             "CHECKOUT_DISABLED_BY_USER",
             "COMMERCE_ACCOUNT_LEGAL_ADDRESS_INVALID",
             "COMMERCE_ACCOUNT_NOT_LEGALLY_COMPLIANT",
@@ -20289,12 +21352,16 @@
             "INVENTORY_ZERO_AVAILABILITY_IN_STOCK",
             "IN_ANOTHER_PRODUCT_LAUNCH",
             "ITEM_GROUP_NOT_SPECIFIED",
+            "ITEM_INVALID_FEATURE",
+            "ITEM_NOT_APPROVED",
+            "ITEM_NOT_NATIVE_COMMERCE",
             "ITEM_NOT_SHIPPABLE_FOR_SCA_SHOP",
             "ITEM_OVERRIDE_EMPTY_AVAILABILITY",
             "ITEM_OVERRIDE_EMPTY_PRICE",
             "ITEM_OVERRIDE_NOT_VISIBLE",
             "ITEM_PRICE_NOT_POSITIVE",
             "ITEM_STALE_OUT_OF_STOCK",
+            "ITEM_SUPPRESSED_CHECKOUT_ERROR",
             "ITEM_WITHOUT_VIDEO",
             "MARKETPLACE_DISABLED_BY_USER",
             "MARKETPLACE_NOT_SHIPPED_ITEM",
@@ -20337,6 +21404,7 @@
             "PRODUCT_EXPIRED",
             "PRODUCT_ITEM_HIDDEN_FROM_ALL_SHOPS",
             "PRODUCT_ITEM_INVALID_PARTNER_TOKENS",
+            "PRODUCT_ITEM_MISSING_LOCATION_INFORMATION",
             "PRODUCT_ITEM_NOT_INCLUDED_IN_ANY_SHOP",
             "PRODUCT_ITEM_NOT_VISIBLE",
             "PRODUCT_NOT_APPROVED",
@@ -20375,6 +21443,7 @@
             "UNMATCHED_EVENTS",
             "UNSUPPORTED_PRODUCT_CATEGORY",
             "VARIANT_ATTRIBUTE_ISSUE",
+            "VERSION_OVERRIDE_NOT_EXISTS",
             "VIDEO_FETCH_FAILED",
             "VIDEO_FETCH_FAILED_BAD_GATEWAY",
             "VIDEO_FETCH_FAILED_FILE_SIZE_EXCEEDED",
@@ -21297,6 +22366,7 @@
             "BIZ_MSG_GEN_AI_POLICY_VIOLATED",
             "CANNOT_EDIT_SUBSCRIPTION_PRODUCTS",
             "CATALOG_NOT_CONNECTED_TO_EVENT_SOURCE",
+            "CATALOG_NOT_ONBOARDED_FOR_AI_COMMERCE",
             "CHECKOUT_DISABLED_BY_USER",
             "COMMERCE_ACCOUNT_LEGAL_ADDRESS_INVALID",
             "COMMERCE_ACCOUNT_NOT_LEGALLY_COMPLIANT",
@@ -21362,12 +22432,16 @@
             "INVENTORY_ZERO_AVAILABILITY_IN_STOCK",
             "IN_ANOTHER_PRODUCT_LAUNCH",
             "ITEM_GROUP_NOT_SPECIFIED",
+            "ITEM_INVALID_FEATURE",
+            "ITEM_NOT_APPROVED",
+            "ITEM_NOT_NATIVE_COMMERCE",
             "ITEM_NOT_SHIPPABLE_FOR_SCA_SHOP",
             "ITEM_OVERRIDE_EMPTY_AVAILABILITY",
             "ITEM_OVERRIDE_EMPTY_PRICE",
             "ITEM_OVERRIDE_NOT_VISIBLE",
             "ITEM_PRICE_NOT_POSITIVE",
             "ITEM_STALE_OUT_OF_STOCK",
+            "ITEM_SUPPRESSED_CHECKOUT_ERROR",
             "ITEM_WITHOUT_VIDEO",
             "MARKETPLACE_DISABLED_BY_USER",
             "MARKETPLACE_NOT_SHIPPED_ITEM",
@@ -21410,6 +22484,7 @@
             "PRODUCT_EXPIRED",
             "PRODUCT_ITEM_HIDDEN_FROM_ALL_SHOPS",
             "PRODUCT_ITEM_INVALID_PARTNER_TOKENS",
+            "PRODUCT_ITEM_MISSING_LOCATION_INFORMATION",
             "PRODUCT_ITEM_NOT_INCLUDED_IN_ANY_SHOP",
             "PRODUCT_ITEM_NOT_VISIBLE",
             "PRODUCT_NOT_APPROVED",
@@ -21448,6 +22523,7 @@
             "UNMATCHED_EVENTS",
             "UNSUPPORTED_PRODUCT_CATEGORY",
             "VARIANT_ATTRIBUTE_ISSUE",
+            "VERSION_OVERRIDE_NOT_EXISTS",
             "VIDEO_FETCH_FAILED",
             "VIDEO_FETCH_FAILED_BAD_GATEWAY",
             "VIDEO_FETCH_FAILED_FILE_SIZE_EXCEEDED",
@@ -21585,8 +22661,17 @@
         ]
     },
     {
+        "name": "shadowiguserconversations_platform_enum_param",
+        "node": "InstagramThread",
+        "field_or_param": "platform",
+        "values": [
+            "INSTAGRAM",
+            "MESSENGER"
+        ]
+    },
+    {
         "name": "shadowigusercreator_marketplace_creators_creator_countries_enum_param",
-        "node": "IGUserExportForCAM",
+        "node": "UserExportForCAM",
         "field_or_param": "creator_countries",
         "values": [
             "AC",
@@ -21845,7 +22930,7 @@
     },
     {
         "name": "shadowigusercreator_marketplace_creators_creator_gender_enum_param",
-        "node": "IGUserExportForCAM",
+        "node": "UserExportForCAM",
         "field_or_param": "creator_gender",
         "values": [
             "custom",
@@ -21855,8 +22940,39 @@
         ]
     },
     {
+        "name": "shadowigusercreator_marketplace_creators_creator_language_enum_param",
+        "node": "UserExportForCAM",
+        "field_or_param": "creator_language",
+        "values": [
+            "ar",
+            "as",
+            "bn",
+            "de",
+            "en",
+            "es",
+            "fr",
+            "gu",
+            "hi",
+            "id",
+            "ja",
+            "kn",
+            "ko",
+            "ml",
+            "mr",
+            "nl",
+            "or",
+            "pa",
+            "pt",
+            "ta",
+            "te",
+            "tr",
+            "ur",
+            "zh"
+        ]
+    },
+    {
         "name": "shadowigusercreator_marketplace_creators_major_audience_countries_enum_param",
-        "node": "IGUserExportForCAM",
+        "node": "UserExportForCAM",
         "field_or_param": "major_audience_countries",
         "values": [
             "AC",
@@ -22115,7 +23231,7 @@
     },
     {
         "name": "shadowigusercreator_marketplace_creators_major_audience_gender_enum_param",
-        "node": "IGUserExportForCAM",
+        "node": "UserExportForCAM",
         "field_or_param": "major_audience_gender",
         "values": [
             "custom",
@@ -22126,7 +23242,7 @@
     },
     {
         "name": "shadowigusercreator_marketplace_creators_platform_enum_param",
-        "node": "IGUserExportForCAM",
+        "node": "UserExportForCAM",
         "field_or_param": "platform",
         "values": [
             "any",
@@ -22137,7 +23253,7 @@
     },
     {
         "name": "shadowigusercreator_marketplace_creators_recommendation_type_enum_param",
-        "node": "IGUserExportForCAM",
+        "node": "UserExportForCAM",
         "field_or_param": "recommendation_type",
         "values": [
             "high_ad_performance",
@@ -22234,6 +23350,55 @@
         ]
     },
     {
+        "name": "shadowigusermessages_folder_enum_param",
+        "node": "Object",
+        "field_or_param": "folder",
+        "values": [
+            "PARTNERSHIP"
+        ]
+    },
+    {
+        "name": "shadowigusermessages_messaging_type_enum_param",
+        "node": "Object",
+        "field_or_param": "messaging_type",
+        "values": [
+            "MESSAGE_TAG",
+            "RESPONSE",
+            "UPDATE",
+            "UTILITY"
+        ]
+    },
+    {
+        "name": "shadowigusermessages_sender_action_enum_param",
+        "node": "Object",
+        "field_or_param": "sender_action",
+        "values": [
+            "MARK_SEEN",
+            "REACT",
+            "TYPING_OFF",
+            "TYPING_ON",
+            "UNREACT"
+        ]
+    },
+    {
+        "name": "shadowigusermessenger_profile_fields_enum_param",
+        "node": "Object",
+        "field_or_param": "fields",
+        "values": [
+            "ACCOUNT_LINKING_URL",
+            "COMMANDS",
+            "DESCRIPTION",
+            "GET_STARTED",
+            "HOME_URL",
+            "ICE_BREAKERS",
+            "PERSISTENT_MENU",
+            "PLATFORM",
+            "SUBJECT_TO_NEW_EU_PRIVACY_RULES",
+            "TITLE",
+            "WHITELISTED_DOMAINS"
+        ]
+    },
+    {
         "name": "shadowigusermoderate_conversations_actions_enum_param",
         "node": "Object",
         "field_or_param": "actions",
@@ -22241,6 +23406,30 @@
             "BLOCK_USER",
             "MOVE_TO_SPAM",
             "UNBLOCK_USER"
+        ]
+    },
+    {
+        "name": "shadowigusersubscribed_apps_subscribed_fields_enum_param",
+        "node": "IGUser",
+        "field_or_param": "subscribed_fields",
+        "values": [
+            "comment_poll_response",
+            "comments",
+            "follow",
+            "live_comments",
+            "mentions",
+            "message_edit",
+            "message_reactions",
+            "messages",
+            "messaging_optins",
+            "messaging_postbacks",
+            "messaging_referral",
+            "messaging_seen",
+            "onboarding_welcome_message_series",
+            "share_to_story",
+            "standby",
+            "story_insights",
+            "story_poll_response"
         ]
     },
     {
@@ -22261,6 +23450,16 @@
             "BEFORE_EVENT_2DAY",
             "EVENT_START",
             "RESCHEDULED"
+        ]
+    },
+    {
+        "name": "shadowiguserwelcome_message_flows_eligible_platforms_enum_param",
+        "node": "ShadowIGUserCTXPartnerAppWelcomeMessageFlow",
+        "field_or_param": "eligible_platforms",
+        "values": [
+            "INSTAGRAM",
+            "MESSENGER",
+            "WHATSAPP"
         ]
     },
     {
@@ -23003,6 +24202,98 @@
         ]
     },
     {
+        "name": "userexportforcambranded_content_media_platform_enum_param",
+        "node": "MediaExportForCAM",
+        "field_or_param": "platform",
+        "values": [
+            "ANY",
+            "BOTH",
+            "FACEBOOK",
+            "INSTAGRAM"
+        ]
+    },
+    {
+        "name": "userexportforcaminsights_breakdown_enum_param",
+        "node": "IGUserExportForCAMInsightsResult",
+        "field_or_param": "breakdown",
+        "values": [
+            "AGE",
+            "FOLLOW_TYPE",
+            "GENDER",
+            "MEDIA_TYPE",
+            "TOP_CITIES",
+            "TOP_COUNTRIES"
+        ]
+    },
+    {
+        "name": "userexportforcaminsights_metrics_enum_param",
+        "node": "IGUserExportForCAMInsightsResult",
+        "field_or_param": "metrics",
+        "values": [
+            "ACCOUNT_INTERACTIONS",
+            "CREATOR_ENGAGED_ACCOUNTS",
+            "CREATOR_REACH",
+            "REELS_HOOK_RATE",
+            "REELS_INTERACTION_RATE",
+            "TOTAL_FOLLOWERS",
+            "TOTAL_VIEWS"
+        ]
+    },
+    {
+        "name": "userexportforcaminsights_period_enum_param",
+        "node": "IGUserExportForCAMInsightsResult",
+        "field_or_param": "period",
+        "values": [
+            "DAY",
+            "OVERALL"
+        ]
+    },
+    {
+        "name": "userexportforcaminsights_platform_enum_param",
+        "node": "IGUserExportForCAMInsightsResult",
+        "field_or_param": "platform",
+        "values": [
+            "ANY",
+            "BOTH",
+            "FACEBOOK",
+            "INSTAGRAM"
+        ]
+    },
+    {
+        "name": "userexportforcaminsights_time_range_enum_param",
+        "node": "IGUserExportForCAMInsightsResult",
+        "field_or_param": "time_range",
+        "values": [
+            "LAST_14_DAYS",
+            "LAST_90_DAYS",
+            "LIFETIME",
+            "THIS_MONTH",
+            "THIS_WEEK"
+        ]
+    },
+    {
+        "name": "userexportforcampast_partnership_ads_media_platform_enum_param",
+        "node": "MediaExportForCAM",
+        "field_or_param": "platform",
+        "values": [
+            "ANY",
+            "BOTH",
+            "FACEBOOK",
+            "INSTAGRAM"
+        ]
+    },
+    {
+        "name": "userexportforcamrecent_media_platform_enum_param",
+        "node": "MediaExportForCAM",
+        "field_or_param": "platform",
+        "values": [
+            "ANY",
+            "BOTH",
+            "FACEBOOK",
+            "INSTAGRAM"
+        ]
+    },
+    {
         "name": "userfeed_backdated_time_granularity_enum_param",
         "node": "Post",
         "field_or_param": "backdated_time_granularity",
@@ -23247,6 +24538,15 @@
         ]
     },
     {
+        "name": "usernotifications_ai_disclosure_enum_param",
+        "node": "User",
+        "field_or_param": "ai_disclosure",
+        "values": [
+            "AI_GENERATED",
+            "NOT_AI_GENERATED"
+        ]
+    },
+    {
         "name": "usernotifications_filtering_enum_param",
         "node": "User",
         "field_or_param": "filtering",
@@ -23411,6 +24711,7 @@
             "LIVE_CREATIVE_KIT_VIDEO",
             "LIVE_PHOTO",
             "LOOK_NOW_DEPRECATED",
+            "MAGIC_CLIP_DEVICE_UPLOAD",
             "MARKETPLACE_LISTING_VIDEO",
             "MARKETPLACE_PRE_RECORDED_VIDEO",
             "MOMENTS_VIDEO",
@@ -23458,6 +24759,7 @@
             "SLIDESHOW_ANIMOTO",
             "SLIDESHOW_SHAKR",
             "SLIDESHOW_VARIATION_VIDEO",
+            "SOIL_VIDEO",
             "SOUND_PLATFORM_STREAM",
             "SRT_ATTACHMENT",
             "STORIES_VIDEO",
@@ -24075,6 +25377,16 @@
             "RED",
             "UNKNOWN",
             "YELLOW"
+        ]
+    },
+    {
+        "name": "whatsappbusinessaccountmessage_templates_routing_entrypoint_enum_param",
+        "node": "WhatsAppBusinessAccount",
+        "field_or_param": "routing_entrypoint",
+        "values": [
+            "MARKETING_ENTRYPOINT",
+            "SERVICE_ENTRYPOINT",
+            "UTILITY_ENTRYPOINT"
         ]
     },
     {

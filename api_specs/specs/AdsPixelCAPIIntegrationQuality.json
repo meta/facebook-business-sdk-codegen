@@ -22,6 +22,10 @@
             "type": "Object"
         },
         {
+            "name": "event_delay",
+            "type": "Object"
+        },
+        {
             "name": "event_match_quality",
             "type": "Object"
         },
@@ -36,6 +40,10 @@
         {
             "name": "event_spend",
             "type": "Object"
+        },
+        {
+            "name": "value_diagnostics",
+            "type": "list<Object>"
         }
     ]
 }

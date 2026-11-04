@@ -115,6 +115,11 @@
                     "type": "list<adgroupinsights_breakdowns_enum_param>"
                 },
                 {
+                    "name": "cpas_only",
+                    "required": false,
+                    "type": "string"
+                },
+                {
                     "name": "date_preset",
                     "required": false,
                     "type": "adgroupinsights_date_preset_enum_param"
@@ -214,7 +219,7 @@
         {
             "method": "POST",
             "endpoint": "insights",
-            "return": "AdReportRun",
+            "return": "Object",
             "params": [
                 {
                     "name": "action_attribution_windows",
@@ -235,6 +240,11 @@
                     "name": "breakdowns",
                     "required": false,
                     "type": "list<adgroupinsights_breakdowns_enum_param>"
+                },
+                {
+                    "name": "cpas_only",
+                    "required": false,
+                    "type": "string"
                 },
                 {
                     "name": "date_preset",

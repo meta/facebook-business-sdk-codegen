@@ -2,13 +2,13 @@
     "apis": [
         {
             "method": "POST",
-            "endpoint": "delete_rule_set",
+            "endpoint": "deleteruleset",
             "return": "AdsValueAdjustmentRuleCollection",
             "params": [
                 {
                     "name": "status",
                     "required": false,
-                    "type": "adsvalueadjustmentrulecollectiondelete_rule_set_status_enum_param"
+                    "type": "adsvalueadjustmentrulecollectiondeleteruleset_status_enum_param"
                 }
             ]
         },

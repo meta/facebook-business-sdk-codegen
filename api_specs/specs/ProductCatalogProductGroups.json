@@ -1,0 +1,33 @@
+{
+    "apis": [
+        {
+            "name": "genPost",
+            "method": "POST",
+            "endpoint": "product_groups",
+            "return": "ProductCatalogProductGroupsPost",
+            "params": [
+                {
+                    "name": "fields",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "retailer_id",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "retailer_id_mode",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "variants",
+                    "required": false,
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": []
+}

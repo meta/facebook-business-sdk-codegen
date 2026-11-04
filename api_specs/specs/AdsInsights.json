@@ -74,6 +74,10 @@
             "type": "string"
         },
         {
+            "name": "aggregated_play_time_per_reach",
+            "type": "list<AdsActionStats>"
+        },
+        {
             "name": "anchor_event_attribution_setting",
             "type": "string"
         },
@@ -175,6 +179,30 @@
         },
         {
             "name": "configurable_audience_overlap_with_conv_exposure_reach",
+            "type": "string"
+        },
+        {
+            "name": "configurable_creative_format_performance_adset_count",
+            "type": "string"
+        },
+        {
+            "name": "configurable_creative_format_performance_clicks",
+            "type": "string"
+        },
+        {
+            "name": "configurable_creative_format_performance_conversions",
+            "type": "string"
+        },
+        {
+            "name": "configurable_creative_format_performance_converters",
+            "type": "string"
+        },
+        {
+            "name": "configurable_creative_format_performance_impressions",
+            "type": "string"
+        },
+        {
+            "name": "configurable_creative_format_performance_spend",
             "type": "string"
         },
         {
@@ -356,6 +384,10 @@
         {
             "name": "cost_per_message_delivered",
             "type": "string"
+        },
+        {
+            "name": "cost_per_mmp_credited_install",
+            "type": "list<AdsActionStats>"
         },
         {
             "name": "cost_per_objective_result",
@@ -644,6 +676,10 @@
         {
             "name": "messages_delivered_ctr",
             "type": "string"
+        },
+        {
+            "name": "mmp_credited_install",
+            "type": "list<AdsActionStats>"
         },
         {
             "name": "mobile_app_purchase_roas",

@@ -1,0 +1,43 @@
+{
+    "apis": [
+        {
+            "name": "genHead",
+            "method": "HEAD",
+            "endpoint": "activities",
+            "return": "AdsPixelActivitiesHead",
+            "params": [
+                {
+                    "name": "business",
+                    "required": true,
+                    "type": "int"
+                },
+                {
+                    "name": "date_format",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "end_time",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "event_type",
+                    "required": false,
+                    "type": "AdsPixelActivitiesHead_event_type_enum_param"
+                },
+                {
+                    "name": "fields",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "start_time",
+                    "required": false,
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": []
+}

@@ -333,6 +333,10 @@
             "type": "unsigned int"
         },
         {
+            "name": "status_message",
+            "type": "string"
+        },
+        {
             "name": "story_event_type",
             "type": "unsigned int"
         },
