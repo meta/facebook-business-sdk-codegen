@@ -1,6 +1,9 @@
 {
   "spec_overriding": {
     "Business": {
+      "$.apis[?(@.method=='GET' && @.endpoint=='business_invoices')]": {
+        "name": "get_business_invoices"
+      },
       "$.apis[?(@.method=='POST' && @.endpoint=='adaccount')]": {
         "return": "AdAccount"
       },
