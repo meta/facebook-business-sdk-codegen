@@ -1,0 +1,33 @@
+{
+    "apis": [
+        {
+            "name": "genPost",
+            "method": "POST",
+            "endpoint": "batch",
+            "return": "ProductCatalogBatchPost",
+            "params": [
+                {
+                    "name": "allow_upsert",
+                    "required": false,
+                    "type": "bool"
+                },
+                {
+                    "name": "fbe_external_business_id",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "requests",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "version",
+                    "required": false,
+                    "type": "int"
+                }
+            ]
+        }
+    ],
+    "fields": []
+}

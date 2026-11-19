@@ -115,33 +115,6 @@
         },
         {
             "method": "POST",
-            "endpoint": "batch",
-            "return": "ProductItem",
-            "params": [
-                {
-                    "name": "allow_upsert",
-                    "required": false,
-                    "type": "bool"
-                },
-                {
-                    "name": "fbe_external_business_id",
-                    "required": false,
-                    "type": "string"
-                },
-                {
-                    "name": "requests",
-                    "required": true,
-                    "type": "list<map>"
-                },
-                {
-                    "name": "version",
-                    "required": false,
-                    "type": "unsigned int"
-                }
-            ]
-        },
-        {
-            "method": "POST",
             "endpoint": "catalog_store",
             "return": "StoreCatalogSettings",
             "params": [

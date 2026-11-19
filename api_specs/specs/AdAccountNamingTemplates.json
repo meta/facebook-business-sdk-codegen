@@ -1,0 +1,12 @@
+{
+    "apis": [
+        {
+            "name": "genPost",
+            "method": "POST",
+            "endpoint": "naming_templates",
+            "return": "AdAccountNamingTemplatesPost",
+            "params": []
+        }
+    ],
+    "fields": []
+}

@@ -276,6 +276,11 @@
                     "type": "post_feed_story_visibility"
                 },
                 {
+                    "name": "is_ai_generated",
+                    "required": false,
+                    "type": "bool"
+                },
+                {
                     "name": "is_explicit_location",
                     "required": false,
                     "type": "bool"

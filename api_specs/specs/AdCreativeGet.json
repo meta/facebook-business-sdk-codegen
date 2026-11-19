@@ -13,6 +13,10 @@
             "type": "AdCreativeGet_actor_type"
         },
         {
+            "name": "ad_disclaimer_spec",
+            "type": "object"
+        },
+        {
             "name": "adlabels",
             "type": "list<object>"
         },
@@ -165,6 +169,10 @@
             "type": "string"
         },
         {
+            "name": "marketing_message_structured_spec",
+            "type": "object"
+        },
+        {
             "name": "media_sourcing_spec",
             "type": "object"
         },
@@ -237,6 +245,10 @@
             "type": "int"
         },
         {
+            "name": "product_suggestion_settings",
+            "type": "object"
+        },
+        {
             "name": "recommender_settings",
             "type": "object"
         },
@@ -250,6 +262,10 @@
         },
         {
             "name": "source_instagram_media_id",
+            "type": "int"
+        },
+        {
+            "name": "source_threads_media_id",
             "type": "int"
         },
         {
@@ -303,6 +319,10 @@
         {
             "name": "visual_hash",
             "type": "int"
+        },
+        {
+            "name": "wamo_whatsapp_identity_spec",
+            "type": "object"
         }
     ]
 }

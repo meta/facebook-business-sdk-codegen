@@ -1,0 +1,98 @@
+{
+    "apis": [
+        {
+            "name": "genPost",
+            "method": "POST",
+            "endpoint": "owned_product_catalogs",
+            "return": "BusinessOwnedProductCatalogsPost",
+            "params": [
+                {
+                    "name": "additional_vertical_option",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "business_metadata",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "capabilities",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "catalog_segment_filter",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "catalog_segment_product_set_id",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "da_display_settings",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "destination_catalog_settings",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "fields",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "flight_catalog_settings",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "hotel_catalog_settings",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "image_display_settings",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "localization_settings",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "name",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "parent_catalog_id",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "partner_integration",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "store_catalog_settings",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "vertical",
+                    "required": false,
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": []
+}

@@ -1,0 +1,38 @@
+{
+    "apis": [
+        {
+            "name": "genGet",
+            "method": "GET",
+            "endpoint": "insights\/share-of-voice",
+            "return": "ShareOfVoiceGet",
+            "params": [
+                {
+                    "name": "category",
+                    "required": true,
+                    "type": "string"
+                },
+                {
+                    "name": "compare_with",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "country",
+                    "required": true,
+                    "type": "string"
+                },
+                {
+                    "name": "date_preset",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "entity",
+                    "required": false,
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": []
+}

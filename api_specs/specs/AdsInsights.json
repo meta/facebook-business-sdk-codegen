@@ -222,10 +222,6 @@
             "type": "list<AdsActionStats>"
         },
         {
-            "name": "configurable_reachbyfrequency_converters_count",
-            "type": "string"
-        },
-        {
             "name": "configurable_reachbyfrequency_impressions_cost",
             "type": "string"
         },

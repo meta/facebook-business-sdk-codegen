@@ -9,7 +9,15 @@
     ],
     "fields": [
         {
+            "name": "declared_live_seconds",
+            "type": "unsigned int"
+        },
+        {
             "name": "id",
+            "type": "string"
+        },
+        {
+            "name": "live_cadence",
             "type": "string"
         },
         {

@@ -6,10 +6,6 @@
             "type": "list<string>"
         },
         {
-            "name": "cas_segment",
-            "type": "string"
-        },
-        {
             "name": "conversions",
             "type": "unsigned int"
         },

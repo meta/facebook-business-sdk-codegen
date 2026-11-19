@@ -1,0 +1,48 @@
+{
+    "apis": [
+        {
+            "name": "genPost",
+            "method": "POST",
+            "endpoint": "agencies",
+            "return": "ProductCatalogAgenciesPost",
+            "params": [
+                {
+                    "name": "business",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "enabled_collab_terms",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "fields",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "permitted_roles",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "permitted_tasks",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "skip_defaults",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "utm_settings",
+                    "required": false,
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": []
+}

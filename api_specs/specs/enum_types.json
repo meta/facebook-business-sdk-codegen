@@ -2549,6 +2549,7 @@
             "AGENTIC_CHECKOUT_PRE_CLICK",
             "AMAZON_BUY_WITH_PRIME",
             "AUGMENTED_REALITY",
+            "CATALOG_RECOMMENDATIONS_ALPHA",
             "CHECKOUT",
             "INTEGRATED_CHECKOUT_LOWES",
             "INTEGRATED_CHECKOUT_MELI",
@@ -2682,6 +2683,7 @@
             "AGENTIC_CHECKOUT_PRE_CLICK",
             "AMAZON_BUY_WITH_PRIME",
             "AUGMENTED_REALITY",
+            "CATALOG_RECOMMENDATIONS_ALPHA",
             "CHECKOUT",
             "INTEGRATED_CHECKOUT_LOWES",
             "INTEGRATED_CHECKOUT_MELI",
@@ -2733,6 +2735,76 @@
         "values": [
             "PUBLISHED",
             "STAGING"
+        ]
+    },
+    {
+        "name": "BusinessOwnedProductCatalogsPost_catalog_item_type",
+        "node": "BusinessOwnedProductCatalogsPost",
+        "field_or_param": "catalog_item_type",
+        "values": [
+            "ACTIVITY",
+            "APP_AND_SOFTWARE",
+            "ARTICLE_AND_PUBLICATION",
+            "AUTOMOTIVE",
+            "DESTINATION",
+            "FLIGHT",
+            "HOME_LISTING",
+            "HOTEL",
+            "MEDIA_TITLE",
+            "OTHER",
+            "PRODUCT",
+            "SERVICE",
+            "TEST_ITEM"
+        ]
+    },
+    {
+        "name": "BusinessOwnedProductCatalogsPost_suggested_conversion_event",
+        "node": "BusinessOwnedProductCatalogsPost",
+        "field_or_param": "suggested_conversion_event",
+        "values": [
+            "ACHIEVEMENT_UNLOCKED",
+            "ACTIVATE_APP",
+            "ADD_PAYMENT_INFO",
+            "ADD_TO_CART",
+            "ADD_TO_WISHLIST",
+            "AD_IMPRESSION",
+            "COMPLETE_REGISTRATION",
+            "CONTACT",
+            "CONTENT_VIEW",
+            "CUSTOMIZE_PRODUCT",
+            "D2_RETENTION",
+            "D7_RETENTION",
+            "DONATE",
+            "FIND_LOCATION",
+            "FLOW_COMPLETE",
+            "INITIATED_CHECKOUT",
+            "LEAD",
+            "LEVEL_ACHIEVED",
+            "LISTING_INTERACTION",
+            "MESSAGING_ACCEPT",
+            "MESSAGING_BLOCK",
+            "MESSAGING_CONVERSATION_STARTED_7D",
+            "MESSAGING_DELETE_MESSAGE",
+            "MESSAGING_DELETE_THREAD",
+            "MESSAGING_DELIVERY_RECEIPT",
+            "MESSAGING_FIRST_REPLY",
+            "MESSAGING_IGNORE_REQUEST",
+            "MESSAGING_MARK_SPAM",
+            "MESSAGING_OPEN_THREAD",
+            "MESSAGING_PROMOTIONAL_OFF",
+            "MESSAGING_READ_RECEIPT",
+            "MESSAGING_REPLY",
+            "OTHER",
+            "PURCHASE",
+            "RATE",
+            "SCHEDULE",
+            "SEARCH",
+            "SERVICE_BOOKING_REQUEST",
+            "SPENT_CREDITS",
+            "START_TRIAL",
+            "SUBMIT_APPLICATION",
+            "SUBSCRIBE",
+            "TUTORIAL_COMPLETION"
         ]
     },
     {
@@ -3298,38 +3370,19 @@
         "field_or_param": "capabilities",
         "values": [
             "B2C_MARKETPLACE",
-            "BIZ_MSG_AI_AGENT",
-            "BUSINESS_INBOX_IN_MESSENGER",
-            "BUY_ON_FACEBOOK",
             "C2C_MARKETPLACE",
-            "CPAS_PARENT_CATALOG",
             "DA",
             "DAILY_DEALS",
             "DAILY_DEALS_LEGACY",
-            "EVENT",
-            "EVENT_DEPRECATED",
-            "GROUPS",
-            "IG_ONSITE_SHOPPING",
             "IG_PRODUCT_TAGGING",
-            "LDP",
             "MARKETPLACE",
             "MARKETPLACE_ADS_DEPRECATED",
-            "MARKETPLACE_HOME_RENTALS",
-            "MARKETPLACE_HOME_SALES",
-            "MARKETPLACE_MOTORS",
             "MARKETPLACE_SHOPS",
             "MINI_SHOPS",
-            "NEIGHBORHOODS",
             "OFFLINE_CONVERSIONS",
-            "ORGANIC_DISCOVERY",
-            "PROFILE",
-            "SERVICE",
             "SHOPS",
-            "TEST_CAPABILITY",
             "UNIVERSAL_CHECKOUT",
-            "US_MARKETPLACE",
-            "WHATSAPP",
-            "WHATSAPP_MARKETING_MESSAGE"
+            "WHATSAPP"
         ]
     },
     {
@@ -3338,38 +3391,19 @@
         "field_or_param": "capabilities_rendering_catalog_manager",
         "values": [
             "B2C_MARKETPLACE",
-            "BIZ_MSG_AI_AGENT",
-            "BUSINESS_INBOX_IN_MESSENGER",
-            "BUY_ON_FACEBOOK",
             "C2C_MARKETPLACE",
-            "CPAS_PARENT_CATALOG",
             "DA",
             "DAILY_DEALS",
             "DAILY_DEALS_LEGACY",
-            "EVENT",
-            "EVENT_DEPRECATED",
-            "GROUPS",
-            "IG_ONSITE_SHOPPING",
             "IG_PRODUCT_TAGGING",
-            "LDP",
             "MARKETPLACE",
             "MARKETPLACE_ADS_DEPRECATED",
-            "MARKETPLACE_HOME_RENTALS",
-            "MARKETPLACE_HOME_SALES",
-            "MARKETPLACE_MOTORS",
             "MARKETPLACE_SHOPS",
             "MINI_SHOPS",
-            "NEIGHBORHOODS",
             "OFFLINE_CONVERSIONS",
-            "ORGANIC_DISCOVERY",
-            "PROFILE",
-            "SERVICE",
             "SHOPS",
-            "TEST_CAPABILITY",
             "UNIVERSAL_CHECKOUT",
-            "US_MARKETPLACE",
-            "WHATSAPP",
-            "WHATSAPP_MARKETING_MESSAGE"
+            "WHATSAPP"
         ]
     },
     {
@@ -4585,6 +4619,8 @@
             "EMPTY_BRAND",
             "EMPTY_CONDITION",
             "EMPTY_DESCRIPTION",
+            "EMPTY_GPC_AND_FPC",
+            "EMPTY_GTIN_AND_MPN",
             "EMPTY_IMAGE_URL",
             "EMPTY_PRICE",
             "EMPTY_PRODUCT_URL",
@@ -5163,6 +5199,7 @@
             "AGENTIC_CHECKOUT_PRE_CLICK",
             "AMAZON_BUY_WITH_PRIME",
             "AUGMENTED_REALITY",
+            "CATALOG_RECOMMENDATIONS_ALPHA",
             "CHECKOUT",
             "INTEGRATED_CHECKOUT_LOWES",
             "INTEGRATED_CHECKOUT_MELI",
@@ -5245,6 +5282,8 @@
             "EMPTY_BRAND",
             "EMPTY_CONDITION",
             "EMPTY_DESCRIPTION",
+            "EMPTY_GPC_AND_FPC",
+            "EMPTY_GTIN_AND_MPN",
             "EMPTY_IMAGE_URL",
             "EMPTY_PRICE",
             "EMPTY_PRODUCT_URL",
@@ -6156,6 +6195,8 @@
             "BLENDED_ADS_DUPLICATION",
             "BLENDED_ADS_FOR_SHOPS_ADS_DUPLICATION",
             "BPBAA_WITH_CAPI_UPSELL",
+            "BRAND_ADVERTISER_ADOPT_CORE_6_PLACEMENTS",
+            "BRAND_ADVERTISER_ADOPT_SHORT_FORM_VIDEO",
             "BRAND_ADVERTISER_INCREASE_CA_OR_LAL_SPEND",
             "BRAND_ADVERTISER_VIDEO_FORMAT_ADS",
             "BROADGEO_AM_UPSELL_GUIDANCE",
@@ -6176,6 +6217,7 @@
             "CAPI_CRM_GUIDANCE_V2",
             "CAPI_CRM_SETUP",
             "CAPI_EVENT_COVERAGE",
+            "CAPI_EVENT_COVERAGE_V2",
             "CAPI_PENETRATION",
             "CAPI_PERFORMANCE_MATCH_KEY",
             "CAPI_PERFORMANCE_MATCH_KEY_V2",
@@ -6200,6 +6242,8 @@
             "CONVERT_CTX_REPLIES_TO_CTX_LEADS",
             "CONVERT_CTX_REPLIES_TO_CTX_PURCHASE",
             "CONVERT_IG_PROFILE_VISIT_TO_PTWA",
+            "CONVERT_INSTANT_FORM_LO_TO_LEAD_GEN_PLUS",
+            "CONVERT_ONSITE_LO_TO_ONSITE_QLO_CAPI_CRM",
             "COST_GOAL",
             "COST_GOAL_BUDGET_LIMITED",
             "COST_GOAL_CPA_LIMITED",
@@ -6361,6 +6405,7 @@
             "PAYMENT_METHOD",
             "PERFORMANT_CREATIVE_REELS_OPT_IN",
             "PERFORMANT_CREATIVE_REELS_OPT_IN_V2",
+            "PERFORM_CHANNEL_LIFT_STUDY_FOR_FIRST_TIME",
             "PFR_L1_INLINE_MMT",
             "PIXELLESS_LPV_OPTIMIZATION_GOAL",
             "PIXEL_OPTIMIZATION_AAM",
@@ -6442,6 +6487,7 @@
             "TAILORED_LEAD_AD_CAMPAIGN",
             "TAILORED_MESSAGES_CAMPAIGN",
             "TARGETING_CREATIVE_FRAGMENTATION",
+            "TEST_SGP_MIGRATE_TO_UGP",
             "THIVIYA_SALES_GUIDANCE_E2E_TEST",
             "THREECO_WEB_PLUS_APP_APLUSD",
             "THREECO_WEB_PLUS_APP_UPSELL",
@@ -7989,6 +8035,8 @@
             "product_group_content_id_breakdown",
             "product_id",
             "publisher_platform",
+            "purchased_brand",
+            "purchased_category",
             "redownload",
             "reels_trending_topic",
             "region",
@@ -8457,6 +8505,8 @@
             "BLENDED_ADS_DUPLICATION",
             "BLENDED_ADS_FOR_SHOPS_ADS_DUPLICATION",
             "BPBAA_WITH_CAPI_UPSELL",
+            "BRAND_ADVERTISER_ADOPT_CORE_6_PLACEMENTS",
+            "BRAND_ADVERTISER_ADOPT_SHORT_FORM_VIDEO",
             "BRAND_ADVERTISER_INCREASE_CA_OR_LAL_SPEND",
             "BRAND_ADVERTISER_VIDEO_FORMAT_ADS",
             "BROADGEO_AM_UPSELL_GUIDANCE",
@@ -8477,6 +8527,7 @@
             "CAPI_CRM_GUIDANCE_V2",
             "CAPI_CRM_SETUP",
             "CAPI_EVENT_COVERAGE",
+            "CAPI_EVENT_COVERAGE_V2",
             "CAPI_PENETRATION",
             "CAPI_PERFORMANCE_MATCH_KEY",
             "CAPI_PERFORMANCE_MATCH_KEY_V2",
@@ -8501,6 +8552,8 @@
             "CONVERT_CTX_REPLIES_TO_CTX_LEADS",
             "CONVERT_CTX_REPLIES_TO_CTX_PURCHASE",
             "CONVERT_IG_PROFILE_VISIT_TO_PTWA",
+            "CONVERT_INSTANT_FORM_LO_TO_LEAD_GEN_PLUS",
+            "CONVERT_ONSITE_LO_TO_ONSITE_QLO_CAPI_CRM",
             "COST_GOAL",
             "COST_GOAL_BUDGET_LIMITED",
             "COST_GOAL_CPA_LIMITED",
@@ -8662,6 +8715,7 @@
             "PAYMENT_METHOD",
             "PERFORMANT_CREATIVE_REELS_OPT_IN",
             "PERFORMANT_CREATIVE_REELS_OPT_IN_V2",
+            "PERFORM_CHANNEL_LIFT_STUDY_FOR_FIRST_TIME",
             "PFR_L1_INLINE_MMT",
             "PIXELLESS_LPV_OPTIMIZATION_GOAL",
             "PIXEL_OPTIMIZATION_AAM",
@@ -8743,6 +8797,7 @@
             "TAILORED_LEAD_AD_CAMPAIGN",
             "TAILORED_MESSAGES_CAMPAIGN",
             "TARGETING_CREATIVE_FRAGMENTATION",
+            "TEST_SGP_MIGRATE_TO_UGP",
             "THIVIYA_SALES_GUIDANCE_E2E_TEST",
             "THREECO_WEB_PLUS_APP_APLUSD",
             "THREECO_WEB_PLUS_APP_UPSELL",
@@ -11560,6 +11615,8 @@
             "product_group_content_id_breakdown",
             "product_id",
             "publisher_platform",
+            "purchased_brand",
+            "purchased_category",
             "redownload",
             "reels_trending_topic",
             "region",
@@ -11793,6 +11850,8 @@
             "product_group_content_id_breakdown",
             "product_id",
             "publisher_platform",
+            "purchased_brand",
+            "purchased_category",
             "redownload",
             "reels_trending_topic",
             "region",
@@ -12297,6 +12356,8 @@
             "product_group_content_id_breakdown",
             "product_id",
             "publisher_platform",
+            "purchased_brand",
+            "purchased_category",
             "redownload",
             "reels_trending_topic",
             "region",
@@ -13620,7 +13681,6 @@
             "INSTREAM_VIDEO_DESKTOP",
             "INSTREAM_VIDEO_IMAGE",
             "INSTREAM_VIDEO_MOBILE",
-            "MESSENGER_MOBILE_INBOX_MEDIA",
             "MESSENGER_MOBILE_STORY_MEDIA",
             "MOBILE_FEED_STANDARD",
             "MOBILE_FULLWIDTH",
@@ -16133,7 +16193,6 @@
             "INSTREAM_VIDEO_DESKTOP",
             "INSTREAM_VIDEO_IMAGE",
             "INSTREAM_VIDEO_MOBILE",
-            "MESSENGER_MOBILE_INBOX_MEDIA",
             "MESSENGER_MOBILE_STORY_MEDIA",
             "MOBILE_FEED_STANDARD",
             "MOBILE_FULLWIDTH",
@@ -16344,7 +16403,7 @@
     },
     {
         "name": "eventlive_videos_projection_enum_param",
-        "node": "LiveVideo",
+        "node": "Object",
         "field_or_param": "projection",
         "values": [
             "CUBEMAP",
@@ -16354,7 +16413,7 @@
     },
     {
         "name": "eventlive_videos_spatial_audio_format_enum_param",
-        "node": "LiveVideo",
+        "node": "Object",
         "field_or_param": "spatial_audio_format",
         "values": [
             "ambiX_4"
@@ -16362,7 +16421,7 @@
     },
     {
         "name": "eventlive_videos_status_enum_param",
-        "node": "LiveVideo",
+        "node": "Object",
         "field_or_param": "status",
         "values": [
             "LIVE_NOW",
@@ -16374,7 +16433,7 @@
     },
     {
         "name": "eventlive_videos_stereoscopic_mode_enum_param",
-        "node": "LiveVideo",
+        "node": "Object",
         "field_or_param": "stereoscopic_mode",
         "values": [
             "LEFT_RIGHT",
@@ -16385,7 +16444,7 @@
     },
     {
         "name": "eventlive_videos_stream_type_enum_param",
-        "node": "LiveVideo",
+        "node": "Object",
         "field_or_param": "stream_type",
         "values": [
             "AMBIENT",
@@ -16574,62 +16633,6 @@
             "REVIEWABLE_BRANDED_CONTENT",
             "SCHEDULED",
             "SCHEDULED_RECURRING"
-        ]
-    },
-    {
-        "name": "groupgroups_group_type_enum_param",
-        "node": "Group",
-        "field_or_param": "group_type",
-        "values": [
-            "CASUAL",
-            "COWORKERS",
-            "CUSTOM",
-            "FOR_SALE",
-            "FOR_WORK",
-            "GAME",
-            "HEALTH_SUPPORT",
-            "JOBS",
-            "LEARNING",
-            "NONE",
-            "PARENTING",
-            "STREAMER",
-            "WORK_AGENT_TO_AGENT",
-            "WORK_ANNOUNCEMENT",
-            "WORK_DEMO_GROUP",
-            "WORK_DISCUSSION",
-            "WORK_EPHEMERAL",
-            "WORK_FEEDBACK",
-            "WORK_FOR_SALE",
-            "WORK_GARDEN",
-            "WORK_INTEGRITY",
-            "WORK_LEARNING",
-            "WORK_MENTORSHIP",
-            "WORK_MULTI_COMPANY",
-            "WORK_RECRUITING",
-            "WORK_SOCIAL",
-            "WORK_STAGES",
-            "WORK_TEAM",
-            "WORK_TEAMWORK"
-        ]
-    },
-    {
-        "name": "groupgroups_join_setting_enum_param",
-        "node": "Group",
-        "field_or_param": "join_setting",
-        "values": [
-            "ADMIN_ONLY",
-            "ANYONE",
-            "NONE"
-        ]
-    },
-    {
-        "name": "groupgroups_post_permissions_enum_param",
-        "node": "Group",
-        "field_or_param": "post_permissions",
-        "values": [
-            "ADMIN_ONLY",
-            "ANYONE",
-            "NONE"
         ]
     },
     {
@@ -17602,7 +17605,9 @@
             "total_comments",
             "total_interactions",
             "total_likes",
+            "total_viewers",
             "total_views",
+            "viewers",
             "views"
         ]
     },
@@ -18654,6 +18659,16 @@
             "ZH_CN",
             "ZH_HK",
             "ZH_TW"
+        ]
+    },
+    {
+        "name": "pageleadgen_forms_phone_otp_verification_type_enum_param",
+        "node": "LeadgenForm",
+        "field_or_param": "phone_otp_verification_type",
+        "values": [
+            "NOT_ENABLED",
+            "OTP_OPTIONAL",
+            "OTP_REQUIRED"
         ]
     },
     {
@@ -20645,6 +20660,8 @@
             "EMPTY_BRAND",
             "EMPTY_CONDITION",
             "EMPTY_DESCRIPTION",
+            "EMPTY_GPC_AND_FPC",
+            "EMPTY_GTIN_AND_MPN",
             "EMPTY_IMAGE_URL",
             "EMPTY_PRICE",
             "EMPTY_PRODUCT_URL",
@@ -21301,6 +21318,8 @@
             "EMPTY_BRAND",
             "EMPTY_CONDITION",
             "EMPTY_DESCRIPTION",
+            "EMPTY_GPC_AND_FPC",
+            "EMPTY_GTIN_AND_MPN",
             "EMPTY_IMAGE_URL",
             "EMPTY_PRICE",
             "EMPTY_PRODUCT_URL",
@@ -22381,6 +22400,8 @@
             "EMPTY_BRAND",
             "EMPTY_CONDITION",
             "EMPTY_DESCRIPTION",
+            "EMPTY_GPC_AND_FPC",
+            "EMPTY_GTIN_AND_MPN",
             "EMPTY_IMAGE_URL",
             "EMPTY_PRICE",
             "EMPTY_PRODUCT_URL",
@@ -22634,7 +22655,9 @@
             "total_comments",
             "total_interactions",
             "total_likes",
+            "total_viewers",
             "total_views",
+            "viewers",
             "views"
         ]
     },
@@ -24480,7 +24503,7 @@
     },
     {
         "name": "userlive_videos_projection_enum_param",
-        "node": "LiveVideo",
+        "node": "Object",
         "field_or_param": "projection",
         "values": [
             "CUBEMAP",
@@ -24499,7 +24522,7 @@
     },
     {
         "name": "userlive_videos_spatial_audio_format_enum_param",
-        "node": "LiveVideo",
+        "node": "Object",
         "field_or_param": "spatial_audio_format",
         "values": [
             "ambiX_4"
@@ -24507,7 +24530,7 @@
     },
     {
         "name": "userlive_videos_status_enum_param",
-        "node": "LiveVideo",
+        "node": "Object",
         "field_or_param": "status",
         "values": [
             "LIVE_NOW",
@@ -24519,7 +24542,7 @@
     },
     {
         "name": "userlive_videos_stereoscopic_mode_enum_param",
-        "node": "LiveVideo",
+        "node": "Object",
         "field_or_param": "stereoscopic_mode",
         "values": [
             "LEFT_RIGHT",
@@ -24530,20 +24553,11 @@
     },
     {
         "name": "userlive_videos_stream_type_enum_param",
-        "node": "LiveVideo",
+        "node": "Object",
         "field_or_param": "stream_type",
         "values": [
             "AMBIENT",
             "REGULAR"
-        ]
-    },
-    {
-        "name": "usernotifications_ai_disclosure_enum_param",
-        "node": "User",
-        "field_or_param": "ai_disclosure",
-        "values": [
-            "AI_GENERATED",
-            "NOT_AI_GENERATED"
         ]
     },
     {

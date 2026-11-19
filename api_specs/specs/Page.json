@@ -1527,6 +1527,11 @@
             "return": "LeadgenForm",
             "params": [
                 {
+                    "name": "ad_account_id",
+                    "required": false,
+                    "type": "unsigned int"
+                },
+                {
                     "name": "allow_organic_lead_retrieval",
                     "required": false,
                     "type": "bool"
@@ -1585,6 +1590,11 @@
                     "name": "name",
                     "required": true,
                     "type": "string"
+                },
+                {
+                    "name": "phone_otp_verification_type",
+                    "required": false,
+                    "type": "pageleadgen_forms_phone_otp_verification_type_enum_param"
                 },
                 {
                     "name": "privacy_policy",

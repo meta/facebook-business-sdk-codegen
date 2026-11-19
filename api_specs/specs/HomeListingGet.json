@@ -125,6 +125,14 @@
             "type": "int"
         },
         {
+            "name": "default_country",
+            "type": "string"
+        },
+        {
+            "name": "default_language_locale",
+            "type": "string"
+        },
+        {
             "name": "description",
             "type": "string"
         },

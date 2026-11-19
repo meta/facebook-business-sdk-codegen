@@ -1,0 +1,53 @@
+{
+    "apis": [
+        {
+            "name": "genGet",
+            "method": "GET",
+            "endpoint": "catalog_advertiser_insights",
+            "return": "BusinessCatalogAdvertiserInsightsGet",
+            "params": [
+                {
+                    "name": "after",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "before",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "category_filter",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "category_level_down",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "country_code",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "fields",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "limit",
+                    "required": false,
+                    "type": "int"
+                },
+                {
+                    "name": "time_range",
+                    "required": false,
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": []
+}

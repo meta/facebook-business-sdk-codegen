@@ -441,6 +441,10 @@
             "type": "string"
         },
         {
+            "name": "source_threads_media_id",
+            "type": "string"
+        },
+        {
             "name": "status",
             "type": "AdCreative_status"
         },

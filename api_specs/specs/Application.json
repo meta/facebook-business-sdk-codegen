@@ -901,11 +901,6 @@
                     "type": "unsigned int"
                 },
                 {
-                    "name": "click_id",
-                    "required": false,
-                    "type": "string"
-                },
-                {
                     "name": "custom_events",
                     "required": false,
                     "type": "list<Object>"
@@ -959,6 +954,11 @@
                     "name": "fb_view_time",
                     "required": false,
                     "type": "unsigned int"
+                },
+                {
+                    "name": "fbc",
+                    "required": false,
+                    "type": "string"
                 },
                 {
                     "name": "google_install_referrer",

@@ -118,6 +118,10 @@
             "type": "string"
         },
         {
+            "name": "phone_otp_verification_type",
+            "type": "string"
+        },
+        {
             "name": "privacy_policy_url",
             "type": "string"
         },

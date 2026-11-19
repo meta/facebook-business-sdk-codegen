@@ -1200,7 +1200,7 @@
         {
             "method": "POST",
             "endpoint": "live_videos",
-            "return": "LiveVideo",
+            "return": "Object",
             "params": [
                 {
                     "name": "content_tags",
@@ -1339,11 +1339,6 @@
             "endpoint": "notifications",
             "return": "User",
             "params": [
-                {
-                    "name": "ai_disclosure",
-                    "required": false,
-                    "type": "usernotifications_ai_disclosure_enum_param"
-                },
                 {
                     "name": "bot_message_payload_elements",
                     "required": false,

@@ -9,12 +9,20 @@
             "type": "string"
         },
         {
+            "name": "ad_review_feedback",
+            "type": "object"
+        },
+        {
             "name": "ad_schedule_end_time",
             "type": "mixed"
         },
         {
             "name": "ad_schedule_start_time",
             "type": "mixed"
+        },
+        {
+            "name": "ad_studies",
+            "type": "object"
         },
         {
             "name": "adcreatives",
@@ -77,6 +85,10 @@
             "type": "list<object>"
         },
         {
+            "name": "copies",
+            "type": "object"
+        },
+        {
             "name": "created_time",
             "type": "mixed"
         },
@@ -137,6 +149,10 @@
             "type": "bool"
         },
         {
+            "name": "failed_delivery_checks",
+            "type": "list<object>"
+        },
+        {
             "name": "frequency",
             "type": "float"
         },
@@ -149,15 +165,99 @@
             "type": "int"
         },
         {
+            "name": "insights",
+            "type": "object"
+        },
+        {
             "name": "is_autobid",
             "type": "bool"
+        },
+        {
+            "name": "issues_info",
+            "type": "list<object>"
         },
         {
             "name": "last_updated_by_app_id",
             "type": "string"
         },
         {
+            "name": "leadgens",
+            "type": "string"
+        },
+        {
+            "name": "leads",
+            "type": "object"
+        },
+        {
             "name": "meta_reward_adgroup_status",
+            "type": "string"
+        },
+        {
+            "name": "metadata",
+            "type": "object"
+        },
+        {
+            "name": "mrl_settings",
+            "type": "object"
+        },
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "objective_for_cost",
+            "type": "string"
+        },
+        {
+            "name": "objective_for_results",
+            "type": "string"
+        },
+        {
+            "name": "preview_link",
+            "type": "string"
+        },
+        {
+            "name": "preview_shareable_link",
+            "type": "string"
+        },
+        {
+            "name": "previews",
+            "type": "object"
+        },
+        {
+            "name": "priority",
+            "type": "int"
+        },
+        {
+            "name": "recommendations",
+            "type": "list<object>"
+        },
+        {
+            "name": "related_media_user_opted_out",
+            "type": "bool"
+        },
+        {
+            "name": "related_page_post_id",
+            "type": "string"
+        },
+        {
+            "name": "result",
+            "type": "string"
+        },
+        {
+            "name": "result_rate",
+            "type": "string"
+        },
+        {
+            "name": "source_ad",
+            "type": "object"
+        },
+        {
+            "name": "source_ad_id",
+            "type": "string"
+        },
+        {
+            "name": "source_app_id",
             "type": "string"
         },
         {
@@ -171,6 +271,22 @@
         {
             "name": "status",
             "type": "string"
+        },
+        {
+            "name": "targeting",
+            "type": "object"
+        },
+        {
+            "name": "targetingsentencelines",
+            "type": "object"
+        },
+        {
+            "name": "tracking_and_conversion_with_defaults",
+            "type": "object"
+        },
+        {
+            "name": "tracking_specs",
+            "type": "list<object>"
         },
         {
             "name": "updated_time",

@@ -830,11 +830,6 @@
                     "type": "unsigned int"
                 },
                 {
-                    "name": "meta_moment_maker_spec",
-                    "required": false,
-                    "type": "map"
-                },
-                {
                     "name": "min_budget_spend_percentage",
                     "required": false,
                     "type": "unsigned int"
@@ -1186,10 +1181,6 @@
         {
             "name": "max_budget_spend_percentage",
             "type": "string"
-        },
-        {
-            "name": "meta_moment_maker_spec",
-            "type": "MetaMomentMakerConfig"
         },
         {
             "name": "min_budget_spend_percentage",

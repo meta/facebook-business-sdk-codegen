@@ -624,68 +624,6 @@
             "params": []
         },
         {
-            "method": "POST",
-            "endpoint": "groups",
-            "return": "Group",
-            "params": [
-                {
-                    "name": "admin",
-                    "required": false,
-                    "type": "int"
-                },
-                {
-                    "name": "description",
-                    "required": false,
-                    "type": "string"
-                },
-                {
-                    "name": "group_icon_id",
-                    "required": false,
-                    "type": "string"
-                },
-                {
-                    "name": "group_type",
-                    "required": false,
-                    "type": "groupgroups_group_type_enum_param"
-                },
-                {
-                    "name": "join_setting",
-                    "required": false,
-                    "type": "groupgroups_join_setting_enum_param"
-                },
-                {
-                    "name": "name",
-                    "required": true,
-                    "type": "string"
-                },
-                {
-                    "name": "parent_id",
-                    "required": false,
-                    "type": "string"
-                },
-                {
-                    "name": "post_permissions",
-                    "required": false,
-                    "type": "groupgroups_post_permissions_enum_param"
-                },
-                {
-                    "name": "post_requires_admin_approval",
-                    "required": false,
-                    "type": "bool"
-                },
-                {
-                    "name": "privacy",
-                    "required": false,
-                    "type": "string"
-                },
-                {
-                    "name": "ref",
-                    "required": false,
-                    "type": "string"
-                }
-            ]
-        },
-        {
             "method": "GET",
             "endpoint": "live_videos",
             "return": "LiveVideo",

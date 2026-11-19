@@ -1,0 +1,73 @@
+{
+    "apis": [
+        {
+            "name": "genGet",
+            "method": "GET",
+            "endpoint": "product_catalogs",
+            "return": "UserProductCatalogsGet",
+            "params": [
+                {
+                    "name": "after",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "before",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "business_catalogs_with_role_filter",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "date_format",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "exclude_user_owned_catalog_segments_filter",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "fields",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "limit",
+                    "required": false,
+                    "type": "int"
+                },
+                {
+                    "name": "name_filter",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "owner_types",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "parent_catalogs_only",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "sort",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "name": "summary",
+                    "required": false,
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "fields": []
+}

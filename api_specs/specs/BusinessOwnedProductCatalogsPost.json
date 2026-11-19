@@ -1,0 +1,292 @@
+{
+    "fields": [
+        {
+            "name": "ad_account_to_collaborative_ads_share_settings",
+            "type": "object"
+        },
+        {
+            "name": "agencies",
+            "type": "object"
+        },
+        {
+            "name": "agency_collaborative_ads_share_settings",
+            "type": "object"
+        },
+        {
+            "name": "assigned_users",
+            "type": "object"
+        },
+        {
+            "name": "business",
+            "type": "object"
+        },
+        {
+            "name": "can_advertise",
+            "type": "bool"
+        },
+        {
+            "name": "can_catalog_segment_create_campaign",
+            "type": "bool"
+        },
+        {
+            "name": "can_create_catalog_segments",
+            "type": "bool"
+        },
+        {
+            "name": "can_manage",
+            "type": "bool"
+        },
+        {
+            "name": "capabilities",
+            "type": "list<object>"
+        },
+        {
+            "name": "capability_features",
+            "type": "list<string>"
+        },
+        {
+            "name": "catalog_duplicate_data",
+            "type": "object"
+        },
+        {
+            "name": "catalog_item_type",
+            "type": "BusinessOwnedProductCatalogsPost_catalog_item_type"
+        },
+        {
+            "name": "catalog_segment_filter",
+            "type": "string"
+        },
+        {
+            "name": "catalog_segment_type",
+            "type": "string"
+        },
+        {
+            "name": "catalog_segments",
+            "type": "object"
+        },
+        {
+            "name": "catalog_store",
+            "type": "object"
+        },
+        {
+            "name": "check_external_event_source_association",
+            "type": "string"
+        },
+        {
+            "name": "checkout_urls",
+            "type": "list<object>"
+        },
+        {
+            "name": "collaborative_ads_share_settings",
+            "type": "object"
+        },
+        {
+            "name": "commerce_merchant_settings",
+            "type": "object"
+        },
+        {
+            "name": "cpas_catalog_compliance_status",
+            "type": "string"
+        },
+        {
+            "name": "cpas_customization_enabled_fields",
+            "type": "list<string>"
+        },
+        {
+            "name": "cpas_is_mpa_lite_omni_enabled_catalog_segment",
+            "type": "bool"
+        },
+        {
+            "name": "cpas_parent_catalog_settings",
+            "type": "object"
+        },
+        {
+            "name": "creation_source",
+            "type": "string"
+        },
+        {
+            "name": "creator_user",
+            "type": "object"
+        },
+        {
+            "name": "da_display_settings",
+            "type": "object"
+        },
+        {
+            "name": "da_pe_spend_28d",
+            "type": "float"
+        },
+        {
+            "name": "da_spend_28d",
+            "type": "float"
+        },
+        {
+            "name": "data_sources",
+            "type": "object"
+        },
+        {
+            "name": "default_image_url",
+            "type": "string"
+        },
+        {
+            "name": "destinations",
+            "type": "object"
+        },
+        {
+            "name": "diagnostics",
+            "type": "object"
+        },
+        {
+            "name": "dominant_pixel",
+            "type": "string"
+        },
+        {
+            "name": "dpa_eligible_ad_accounts",
+            "type": "object"
+        },
+        {
+            "name": "event_stats",
+            "type": "object"
+        },
+        {
+            "name": "external_event_sources",
+            "type": "object"
+        },
+        {
+            "name": "fallback_image_url",
+            "type": "list<string>"
+        },
+        {
+            "name": "feed_count",
+            "type": "int"
+        },
+        {
+            "name": "has_external_event_source_associated_skip_privacy",
+            "type": "bool"
+        },
+        {
+            "name": "has_issues",
+            "type": "bool"
+        },
+        {
+            "name": "has_localized_overrides",
+            "type": "bool"
+        },
+        {
+            "name": "has_multiple_partner_integrations_for_platform",
+            "type": "bool"
+        },
+        {
+            "name": "home_listings",
+            "type": "object"
+        },
+        {
+            "name": "hotels",
+            "type": "object"
+        },
+        {
+            "name": "hpi_count",
+            "type": "int"
+        },
+        {
+            "name": "id",
+            "type": "int"
+        },
+        {
+            "name": "is_catalog_segment",
+            "type": "bool"
+        },
+        {
+            "name": "is_eligible_for_category_targeting",
+            "type": "bool"
+        },
+        {
+            "name": "is_eligible_for_checkout",
+            "type": "bool"
+        },
+        {
+            "name": "is_eligible_for_value_optimization",
+            "type": "bool"
+        },
+        {
+            "name": "is_local_catalog",
+            "type": "bool"
+        },
+        {
+            "name": "localization_settings",
+            "type": "object"
+        },
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "owner_business",
+            "type": "object"
+        },
+        {
+            "name": "page",
+            "type": "object"
+        },
+        {
+            "name": "parent_catalog_id",
+            "type": "int"
+        },
+        {
+            "name": "product_count",
+            "type": "int"
+        },
+        {
+            "name": "product_feeds",
+            "type": "object"
+        },
+        {
+            "name": "product_groups",
+            "type": "object"
+        },
+        {
+            "name": "product_sets",
+            "type": "object"
+        },
+        {
+            "name": "products",
+            "type": "object"
+        },
+        {
+            "name": "smart_pixel_settings",
+            "type": "object"
+        },
+        {
+            "name": "source_app",
+            "type": "object"
+        },
+        {
+            "name": "store_catalog_settings",
+            "type": "object"
+        },
+        {
+            "name": "sub_vertical",
+            "type": "string"
+        },
+        {
+            "name": "suggested_conversion_event",
+            "type": "BusinessOwnedProductCatalogsPost_suggested_conversion_event"
+        },
+        {
+            "name": "user_tasks",
+            "type": "object"
+        },
+        {
+            "name": "vehicles",
+            "type": "object"
+        },
+        {
+            "name": "vertical",
+            "type": "string"
+        },
+        {
+            "name": "website_onboarding_settings",
+            "type": "object"
+        }
+    ]
+}
